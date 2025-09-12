@@ -202,7 +202,9 @@ func (app *App) triggerCheck() {
 		slog.Error(fmt.Sprintf("检测代理失败: %v", err))
 		os.Exit(1)
 	}
-
+	
+	os.Exit(0)
+	
 	// 检测完成后显示下次检查时间
 	if app.ticker != nil {
 		// 使用间隔时间模式
