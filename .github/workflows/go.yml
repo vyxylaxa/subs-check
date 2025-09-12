@@ -25,7 +25,7 @@ jobs:
       run: go build -v .
     
     - name: Test
-      run: echo
+      run: ls
     
     - name: Run
       run: ./subs-check -f ./config/config.yaml
@@ -35,7 +35,7 @@ jobs:
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
 
-        git add ./output   #这是pre_check.py定义的输出路径
+        git add ./subs-check/output   #这是pre_check.py定义的输出路径
         git commit -m "🍀 爬取订阅源 $(date '+%Y-%m-%d %H:%M:%S')"
         
     - name: 推送更改
