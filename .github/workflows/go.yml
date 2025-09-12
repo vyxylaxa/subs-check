@@ -28,7 +28,7 @@ jobs:
       run: echo
     
     - name: Run
-      run: ./subs-check -f ./config/config.yml
+      run: ./subs-check -f ./config/config.yaml
       
     - name: Commit
       run: |
