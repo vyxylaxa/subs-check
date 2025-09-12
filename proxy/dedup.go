@@ -20,7 +20,7 @@ func DeduplicateProxies(proxies []map[string]any) []map[string]any {
 			password, _ = proxy["uuid"].(string)
 		}
 
-		key := fmt.Sprintf("%s:%v:%s:%s", server, proxy["port"], servername, password)
+		key := fmt.Sprintf("%v:%s:%s",proxy["port"], servername, password)
 		if !seenKeys[key] {
 			seenKeys[key] = true
 			result = append(result, proxy)
