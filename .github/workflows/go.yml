@@ -23,7 +23,9 @@ jobs:
 
     - name: Build
       run: go build -v .
-
+    
+    - name: Test
+    
     - name: Run
       run: ./subs-check -f ./config/config.yml
       
