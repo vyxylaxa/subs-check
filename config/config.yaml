@@ -195,4 +195,4 @@ sub-urls:
   # - https://raw.githubusercontent.com/example/repo/main/config/{Ymd}.yaml
   # - https://raw.githubusercontent.com/example/repo/main/daily/daily-{Y}-{m}-{d}.yaml
   # - https://example.com/sub.txt#我是备注我是备注
-  - https://github.com/vyxylaxa/mysub/blob/main/valid_content_all.txt
+  - https://raw.githubusercontent.com/vyxylaxa/mysub/refs/heads/main/valid_content_all.txt
