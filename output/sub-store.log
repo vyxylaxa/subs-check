@@ -1,0 +1,41 @@
+
+┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅
+     Sub-Store -- v2.20.9
+┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅
+
+[sub-store] INFO: Start migrating...
+[sub-store] INFO: Migration complete!
+[sub-store] INFO: [BACKEND] body JSON limit: 30mb
+[sub-store] INFO: [BACKEND] listening on :::8299
+TypeError: Cannot convert undefined or null to object
+    at RP (/home/runner/work/subs-check/subs-check/output/sub-store.bundle.js:1358:2979)
+    at pg.handle_request (/home/runner/work/subs-check/subs-check/output/sub-store.bundle.js:157:4112)
+    at l (/home/runner/work/subs-check/subs-check/output/sub-store.bundle.js:157:6202)
+    at fg.dispatch (/home/runner/work/subs-check/subs-check/output/sub-store.bundle.js:157:6001)
+    at pg.handle_request (/home/runner/work/subs-check/subs-check/output/sub-store.bundle.js:157:4112)
+    at /home/runner/work/subs-check/subs-check/output/sub-store.bundle.js:157:8953
+    at F (/home/runner/work/subs-check/subs-check/output/sub-store.bundle.js:157:9604)
+    at F (/home/runner/work/subs-check/subs-check/output/sub-store.bundle.js:157:9683)
+    at Zh.process_params (/home/runner/work/subs-check/subs-check/output/sub-store.bundle.js:157:9952)
+    at H (/home/runner/work/subs-check/subs-check/output/sub-store.bundle.js:157:8897)
+[sub-store] INFO: 正在创建订阅： sub
+[sub-store] INFO: 正在创建文件：mihomo
+[sub-store] INFO: 正在更新订阅： sub
+[sub-store] INFO: 正在下载文件：mihomo
+请求 User-Agent: Go-http-client/1.1
+[sub-store] INFO: Downloading...
+User-Agent: clash.meta
+Timeout: 8000
+Proxy: undefined
+Insecure: false
+Preprocess: undefined
+URL: http://127.0.0.1:8199/sub/ACL4SSR_Online_Full.yaml
+[sub-store] INFO: statusCode: 200
+[sub-store] INFO: Pre-processor [Clash Pre-processor] activated
+[sub-store] INFO: Clash Parser is activated
+[sub-store] INFO: 正在下载订阅：sub
+请求 User-Agent: Go-http-client/1.1
+请求 target: V2Ray
+实际输出: V2Ray
+[sub-store] INFO: Pre-processor [Clash Pre-processor] activated
+[sub-store] INFO: Clash Parser is activated

@@ -1,0 +1,42 @@
+{
+  "subs": [
+    {
+      "content": "proxies:\n    - alpn:\n        - h3\n      alterId: \"0\"\n      cipher: auto\n      name: \"\\U0001F1E7\\U0001F1F7BR_1|6.7MB/s\"\n      network: ws\n      port: \"443\"\n      server: 104.26.12.54\n      servername: jfiawxbaxi.guojiajia.dpdns.org\n      skip-cert-verify: false\n      tls: true\n      type: vmess\n      udp: true\n      uuid: bd8f4c3a-b55a-4a55-a4be-d2ead4a4c66a\n      ws-opts:\n        early-data-header-name: Sec-WebSocket-Protocol\n        headers:\n            Host: chichakebaxibaxi.guojiajia.dpdns.org\n        max-early-data: 2048\n        path: /\n      xudp: true\n    - down: \"\"\n      fingerprint: \"\"\n      name: \"\\U0001F1F8\\U0001F1ECSG_1|4.4MB/s\"\n      obfs: \"\"\n      obfs-password: \"\"\n      password: a24c6851-2055-42c1-9c20-2d3bad97334f\n      port: \"3000\"\n      server: dv-sg.9966661.xyz\n      skip-cert-verify: false\n      sni: dv-sg.9966661.xyz\n      type: hysteria2\n      up: \"\"\n",
+      "name": "sub",
+      "remark": "subs-check专用,勿动",
+      "source": "local",
+      "process": [
+        {
+          "type": "Quick Setting Operator"
+        }
+      ]
+    }
+  ],
+  "collections": [],
+  "artifacts": [],
+  "rules": [],
+  "files": [
+    {
+      "name": "mihomo",
+      "process": [
+        {
+          "args": {
+            "content": "http://127.0.0.1:8199/sub/ACL4SSR_Online_Full.yaml",
+            "mode": "link"
+          },
+          "disabled": false,
+          "type": "Script Operator"
+        }
+      ],
+      "remark": "subs-check专用,勿动",
+      "source": "local",
+      "sourceName": "sub",
+      "sourceType": "subscription",
+      "type": "mihomoProfile"
+    }
+  ],
+  "tokens": [],
+  "schemaVersion": "2.0",
+  "settings": {},
+  "modules": []
+}
