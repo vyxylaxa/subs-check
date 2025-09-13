@@ -3,7 +3,7 @@ proxies:
       - h3
     alterId: '0'
     cipher: auto
-    name: "\U0001F1E7\U0001F1F7BR_1|6.4MB/s"
+    name: "\U0001F1E7\U0001F1F7BR_1|6.6MB/s"
     network: ws
     port: 443
     server: 104.26.13.54
@@ -20,33 +20,9 @@ proxies:
       path: /
     xudp: true
     servername: jfiawxbaxi.guojiajia.dpdns.org
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EE\U0001F1F9IT_1|8.9MB/s"
-    obfs: salamander
-    obfs-password: 37ObUksIBQ2uwihL
-    password: da9778d6-8d2a-47b5-affd-eeca26330b8e
-    port: 4446
-    server: 5.59.248.25
-    skip-cert-verify: true
-    sni: hy2.xnsm.site
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EC\U0001F1E7GB_1|8.0MB/s"
-    obfs: salamander
-    obfs-password: VOc1dfU8Q4OunvN7
-    password: da9778d6-8d2a-47b5-affd-eeca26330b8e
-    port: 40083
-    server: 185.139.7.144
-    skip-cert-verify: true
-    sni: hy2.xnsm.site
-    type: hysteria2
-    up: ''
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E7\U0001F1F7BR_2|6.8MB/s"
+    name: "\U0001F1E7\U0001F1F7BR_2|6.4MB/s"
     network: ws
     port: 443
     server: lt.9966690.xyz
@@ -58,13 +34,37 @@ proxies:
       headers:
         Host: syyn-br1-qRTe2S.1095828.xyz
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/63.0.3239.84 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
       path: /B7vM6kNQfN
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2048
     xudp: true
     servername: syyn-br1-qRTe2S.1095828.xyz
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EC\U0001F1E7GB_1|5.3MB/s"
+    obfs: salamander
+    obfs-password: VOc1dfU8Q4OunvN7
+    password: da9778d6-8d2a-47b5-affd-eeca26330b8e
+    port: 40083
+    server: 185.139.7.144
+    skip-cert-verify: true
+    sni: hy2.xnsm.site
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EE\U0001F1F9IT_1|5.5MB/s"
+    obfs: salamander
+    obfs-password: 37ObUksIBQ2uwihL
+    password: da9778d6-8d2a-47b5-affd-eeca26330b8e
+    port: 4446
+    server: 5.59.248.25
+    skip-cert-verify: true
+    sni: hy2.xnsm.site
+    type: hysteria2
+    up: ''
   - client-fingerprint: safari
     encryption: none
     flow: xtls-rprx-vision
@@ -72,7 +72,7 @@ proxies:
       headers: {}
       path:
         - /
-    name: "\U0001F1EC\U0001F1E7GB_2|3.5MB/s"
+    name: "\U0001F1EC\U0001F1E7GB_2|5.3MB/s"
     network: tcp
     port: 40084
     reality-opts:
@@ -85,9 +85,33 @@ proxies:
     uuid: da9778d6-8d2a-47b5-affd-eeca26330b8e
     xudp: true
     servername: addons.mozilla.org
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F8\U0001F1ECSG_1|2.1MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6
+    port: 3000
+    server: dv-sg.9966661.xyz
+    skip-cert-verify: false
+    sni: dv-sg.9966661.xyz
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F8\U0001F1ECSG_2|2.2MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
+    port: 3000
+    server: dv-sg.9966661.xyz
+    skip-cert-verify: false
+    sni: dv-sg.9966661.xyz
+    type: hysteria2
+    up: ''
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E7\U0001F1F7BR_3|2.1MB/s"
+    name: "\U0001F1E7\U0001F1F7BR_3|2.2MB/s"
     network: ws
     port: 443
     server: lt.9966690.xyz
@@ -99,8 +123,8 @@ proxies:
       headers:
         Host: syyn-br1-qRTe2S.1095828.xyz
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.106 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36
       path: /B7vM6kNQfN
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2048
@@ -108,152 +132,49 @@ proxies:
     servername: syyn-br1-qRTe2S.1095828.xyz
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_1|5.6MB/s"
+    name: "\U0001F1E9\U0001F1EADE_1|727KB/s"
     obfs: salamander
     obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
     password: b76acdda-bc30-4ce9-a048-eed35d426dff
-    port: 25780
-    server: ushub.xg-hub.icu
+    port: 25784
+    server: dehub.xg-hub.icu
     skip-cert-verify: true
-    sni: ushub.xg-hub.icu
+    sni: dehub.xg-hub.icu
     type: hysteria2
     up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EF\U0001F1F5JP_1|2.5MB/s"
-    obfs: salamander
-    obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-    password: b76acdda-bc30-4ce9-a048-eed35d426dff
-    port: 25781
-    server: jphub.xg-hub.icu
-    skip-cert-verify: true
-    sni: jphub.xg-hub.icu
-    type: hysteria2
-    up: ''
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_2|2.4MB/s"
-    password: 6c33380e-1fe5-4b48-ad45-3ec01e1de618
-    port: 55044
-    server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.blue-bgp.xyz
-    skip-cert-verify: true
-    sni: 785981be-f60a-5784-a336-07445467c21e.blue-bgp.xyz
-    type: trojan
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_1|3.7MB/s"
+    network: ws
+    port: 22108
+    server: 212.192.15.73
+    skip-cert-verify: false
+    tls: false
+    type: vmess
     udp: true
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_2|619KB/s"
-    obfs: salamander
-    obfs-password: JNXRjUDYidh5wHg1
-    password: d43d4a09-8348-43dd-b828-b6da566a2a85
-    port: 64144
-    server: 172.245.152.39
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria2
-    up: ''
-  - client-fingerprint: qq
-    encryption: none
-    http-opts:
+    uuid: c67ce191-466b-4a31-ae19-5ec886e4302b
+    ws-opts:
       headers: {}
-      path:
-        - /
-    name: "\U0001F1F8\U0001F1EESI_1|537KB/s"
-    network: tcp
-    port: 41515
-    reality-opts:
-      public-key: X-2MbflqRC-bX_0lg73L-CSg35SiBVUumWxn4V02CQw
-      short-id: c5befa216b6af9ac
-    server: 194.58.66.235
-    tls: true
-    type: vless
-    udp: true
-    uuid: d43d4a09-8348-43dd-b828-b6da566a2a85
+      path: /
     xudp: true
-    servername: apple.com
-  - client-fingerprint: ios
-    encryption: none
-    http-opts:
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_2|1.4MB/s"
+    network: ws
+    port: 22108
+    server: 212.192.15.73
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 0f8e21be-5b3e-4332-9528-4bbf4ae33e7b
+    ws-opts:
       headers: {}
-      path:
-        - /
-    name: "\U0001F1F8\U0001F1EESI_2|538KB/s"
-    network: tcp
-    port: 61117
-    reality-opts:
-      public-key: oSi6KQ09e8g-YvzofYxYAmRY5t8CJywUZSSUWd23j3c
-      short-id: 0cd0
-    server: 194.58.66.235
-    tls: true
-    type: vless
-    udp: true
-    uuid: d43d4a09-8348-43dd-b828-b6da566a2a85
+      path: /
     xudp: true
-    servername: apple.com
-  - client-fingerprint: safari
-    encryption: none
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F8\U0001F1EESI_3|583KB/s"
-    network: tcp
-    port: 61531
-    reality-opts:
-      public-key: UJ8zvbUEvqPWyl2Ny91NAWxKQwokjPaOx8IQXyODDH8
-      short-id: d5ff9add383210e6
-    server: 194.58.66.235
-    tls: true
-    type: vless
-    udp: true
-    uuid: d43d4a09-8348-43dd-b828-b6da566a2a85
-    xudp: true
-    servername: apple.com
-  - client-fingerprint: chrome
-    encryption: none
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F8\U0001F1EESI_4|558KB/s"
-    network: tcp
-    port: 51541
-    reality-opts:
-      public-key: DAp8mrKzf87XL06waRAOaMdZVuHDCA11OQVOksyp6zA
-      short-id: c97327c690
-    server: 194.58.66.235
-    tls: true
-    type: vless
-    udp: true
-    uuid: d43d4a09-8348-43dd-b828-b6da566a2a85
-    xudp: true
-    servername: apple.com
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_3|9.3MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 661e500a-67d0-4390-8e0c-e9acaec9890c
-    port: 37011
-    server: yg.foldjc.top
-    skip-cert-verify: true
-    sni: yg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_4|8.2MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 70171110-cbef-4945-96fa-cc4803680adf
-    port: 37011
-    server: yg.foldjc.top
-    skip-cert-verify: true
-    sni: yg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_5|5.2MB/s"
+    name: "\U0001F1FA\U0001F1F8US_3|23.4MB/s"
     obfs: ''
     obfs-password: ''
     password: 5098626f-efed-42ee-a363-f91a5e0d8d47
@@ -265,130 +186,10 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_6|5.1MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 661e500a-67d0-4390-8e0c-e9acaec9890c
-    port: 37012
-    server: xjp.foldjc.top
-    skip-cert-verify: true
-    sni: xjp.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_7|2.9MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 5098626f-efed-42ee-a363-f91a5e0d8d47
-    port: 37012
-    server: xjp.foldjc.top
-    skip-cert-verify: true
-    sni: xjp.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_1|3.8MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 661e500a-67d0-4390-8e0c-e9acaec9890c
-    port: 37014
-    server: yd.foldjc.top
-    skip-cert-verify: true
-    sni: yd.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_8|3.2MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 70171110-cbef-4945-96fa-cc4803680adf
-    port: 37012
-    server: xjp.foldjc.top
-    skip-cert-verify: true
-    sni: xjp.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_2|3.2MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 5098626f-efed-42ee-a363-f91a5e0d8d47
-    port: 37014
-    server: yd.foldjc.top
-    skip-cert-verify: true
-    sni: yd.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_9|5.2MB/s"
+    name: "\U0001F1FA\U0001F1F8US_4|18.1MB/s"
     obfs: ''
     obfs-password: ''
     password: b8f89919-e0c5-415b-a53d-048218e5dcb6
-    port: 37012
-    server: xjp.foldjc.top
-    skip-cert-verify: true
-    sni: xjp.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_3|3.0MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 661e500a-67d0-4390-8e0c-e9acaec9890c
-    port: 37017
-    server: dg.foldjc.top
-    skip-cert-verify: true
-    sni: dg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_4|3.0MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 5098626f-efed-42ee-a363-f91a5e0d8d47
-    port: 37017
-    server: dg.foldjc.top
-    skip-cert-verify: true
-    sni: dg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_1|1021KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 5098626f-efed-42ee-a363-f91a5e0d8d47
-    port: 37013
-    server: tw.foldjc.top
-    skip-cert-verify: true
-    sni: tw.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_2|3.9MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: b8f89919-e0c5-415b-a53d-048218e5dcb6
-    port: 37014
-    server: yd.foldjc.top
-    skip-cert-verify: true
-    sni: yd.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_10|13.0MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 557f3ab9-6783-460c-87ba-c65e8c4423f4
     port: 37011
     server: yg.foldjc.top
     skip-cert-verify: true
@@ -397,34 +198,46 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_5|3.3MB/s"
+    name: "\U0001F1FA\U0001F1F8US_5|7.4MB/s"
     obfs: ''
     obfs-password: ''
     password: 70171110-cbef-4945-96fa-cc4803680adf
-    port: 37014
-    server: yd.foldjc.top
+    port: 37011
+    server: yg.foldjc.top
     skip-cert-verify: true
-    sni: yd.foldjc.top
+    sni: yg.foldjc.top
     type: hysteria2
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_6|2.8MB/s"
+    name: "\U0001F1FA\U0001F1F8US_6|9.9MB/s"
     obfs: ''
     obfs-password: ''
-    password: 70171110-cbef-4945-96fa-cc4803680adf
-    port: 37017
-    server: dg.foldjc.top
+    password: d8c03c4f-5f90-4bd7-b3ef-0795488446ba
+    port: 37011
+    server: yg.foldjc.top
     skip-cert-verify: true
-    sni: dg.foldjc.top
+    sni: yg.foldjc.top
     type: hysteria2
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_11|5.3MB/s"
+    name: "\U0001F1ED\U0001F1F0HK_1|1.0MB/s"
     obfs: ''
     obfs-password: ''
-    password: f2c218ad-e0a4-424d-9f29-5070a9f9263a
+    password: 5098626f-efed-42ee-a363-f91a5e0d8d47
+    port: 37013
+    server: tw.foldjc.top
+    skip-cert-verify: true
+    sni: tw.foldjc.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_7|828KB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 5098626f-efed-42ee-a363-f91a5e0d8d47
     port: 37012
     server: xjp.foldjc.top
     skip-cert-verify: true
@@ -433,7 +246,55 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_3|1008KB/s"
+    name: "\U0001F1ED\U0001F1F0HK_2|904KB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 70171110-cbef-4945-96fa-cc4803680adf
+    port: 37013
+    server: tw.foldjc.top
+    skip-cert-verify: true
+    sni: tw.foldjc.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F7\U0001F1FARU_1|839KB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 5098626f-efed-42ee-a363-f91a5e0d8d47
+    port: 37017
+    server: dg.foldjc.top
+    skip-cert-verify: true
+    sni: dg.foldjc.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_8|703KB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 70171110-cbef-4945-96fa-cc4803680adf
+    port: 37012
+    server: xjp.foldjc.top
+    skip-cert-verify: true
+    sni: xjp.foldjc.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_9|686KB/s"
+    obfs: ''
+    obfs-password: ''
+    password: b8f89919-e0c5-415b-a53d-048218e5dcb6
+    port: 37012
+    server: xjp.foldjc.top
+    skip-cert-verify: true
+    sni: xjp.foldjc.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1ED\U0001F1F0HK_3|851KB/s"
     obfs: ''
     obfs-password: ''
     password: b8f89919-e0c5-415b-a53d-048218e5dcb6
@@ -445,67 +306,7 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: ❓Other_1|1023KB/s
-    obfs: ''
-    obfs-password: ''
-    password: 661e500a-67d0-4390-8e0c-e9acaec9890c
-    port: 37013
-    server: tw.foldjc.top
-    skip-cert-verify: true
-    sni: tw.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_12|8.1MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: a3b2ac61-6d47-48db-9c38-79999b7bbe16
-    port: 37012
-    server: xjp.foldjc.top
-    skip-cert-verify: true
-    sni: xjp.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: ❓Other_2|1.1MB/s
-    obfs: ''
-    obfs-password: ''
-    password: 70171110-cbef-4945-96fa-cc4803680adf
-    port: 37013
-    server: tw.foldjc.top
-    skip-cert-verify: true
-    sni: tw.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_7|2.7MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: b8f89919-e0c5-415b-a53d-048218e5dcb6
-    port: 37017
-    server: dg.foldjc.top
-    skip-cert-verify: true
-    sni: dg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_8|4.6MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: f2c218ad-e0a4-424d-9f29-5070a9f9263a
-    port: 37014
-    server: yd.foldjc.top
-    skip-cert-verify: true
-    sni: yd.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_13|6.1MB/s"
+    name: "\U0001F1FA\U0001F1F8US_10|31.7MB/s"
     obfs: ''
     obfs-password: ''
     password: a3b2ac61-6d47-48db-9c38-79999b7bbe16
@@ -517,7 +318,7 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_4|1010KB/s"
+    name: "\U0001F1ED\U0001F1F0HK_4|1.1MB/s"
     obfs: ''
     obfs-password: ''
     password: d8c03c4f-5f90-4bd7-b3ef-0795488446ba
@@ -529,19 +330,31 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_5|892KB/s"
+    name: "\U0001F1F7\U0001F1FARU_2|2.6MB/s"
     obfs: ''
     obfs-password: ''
-    password: d2cb63ed-73b1-46e5-b1bf-43ea8b81ccd5
-    port: 37013
-    server: tw.foldjc.top
+    password: b8f89919-e0c5-415b-a53d-048218e5dcb6
+    port: 37017
+    server: dg.foldjc.top
     skip-cert-verify: true
-    sni: tw.foldjc.top
+    sni: dg.foldjc.top
     type: hysteria2
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_14|7.8MB/s"
+    name: "\U0001F1F7\U0001F1FARU_3|1.1MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 70171110-cbef-4945-96fa-cc4803680adf
+    port: 37017
+    server: dg.foldjc.top
+    skip-cert-verify: true
+    sni: dg.foldjc.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_11|27.0MB/s"
     obfs: ''
     obfs-password: ''
     password: 025a77b6-f5d4-49d6-a90d-9864dd0f1a35
@@ -553,31 +366,19 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_15|7.5MB/s"
+    name: "\U0001F1F7\U0001F1FARU_4|2.5MB/s"
     obfs: ''
     obfs-password: ''
-    password: 025a77b6-f5d4-49d6-a90d-9864dd0f1a35
-    port: 37012
-    server: xjp.foldjc.top
+    password: d8c03c4f-5f90-4bd7-b3ef-0795488446ba
+    port: 37017
+    server: dg.foldjc.top
     skip-cert-verify: true
-    sni: xjp.foldjc.top
+    sni: dg.foldjc.top
     type: hysteria2
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_6|984KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 557f3ab9-6783-460c-87ba-c65e8c4423f4
-    port: 37013
-    server: tw.foldjc.top
-    skip-cert-verify: true
-    sni: tw.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_16|9.7MB/s"
+    name: "\U0001F1FA\U0001F1F8US_12|35.6MB/s"
     obfs: ''
     obfs-password: ''
     password: cdc48fdf-728c-4b46-9078-f9b755ba8e3c
@@ -589,43 +390,7 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_9|4.5MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: a3b2ac61-6d47-48db-9c38-79999b7bbe16
-    port: 37014
-    server: yd.foldjc.top
-    skip-cert-verify: true
-    sni: yd.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_17|18.6MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 2a988cfa-ac2c-42a5-8dc4-189b7e995b76
-    port: 37011
-    server: yg.foldjc.top
-    skip-cert-verify: true
-    sni: yg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_18|4.8MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: cdc48fdf-728c-4b46-9078-f9b755ba8e3c
-    port: 37012
-    server: xjp.foldjc.top
-    skip-cert-verify: true
-    sni: xjp.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_19|15.2MB/s"
+    name: "\U0001F1FA\U0001F1F8US_13|49.6MB/s"
     obfs: ''
     obfs-password: ''
     password: 869fe2a1-76a2-4b2c-ba1b-7a04358b8234
@@ -637,19 +402,7 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_7|3.7MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 025a77b6-f5d4-49d6-a90d-9864dd0f1a35
-    port: 37014
-    server: yd.foldjc.top
-    skip-cert-verify: true
-    sni: yd.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_8|962KB/s"
+    name: "\U0001F1ED\U0001F1F0HK_5|1.1MB/s"
     obfs: ''
     obfs-password: ''
     password: a3b2ac61-6d47-48db-9c38-79999b7bbe16
@@ -661,34 +414,70 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_10|4.1MB/s"
+    name: "\U0001F1ED\U0001F1F0HK_6|1.1MB/s"
     obfs: ''
     obfs-password: ''
-    password: cdc48fdf-728c-4b46-9078-f9b755ba8e3c
-    port: 37014
-    server: yd.foldjc.top
+    password: 025a77b6-f5d4-49d6-a90d-9864dd0f1a35
+    port: 37013
+    server: tw.foldjc.top
     skip-cert-verify: true
-    sni: yd.foldjc.top
+    sni: tw.foldjc.top
     type: hysteria2
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_20|5.1MB/s"
+    name: "\U0001F1F7\U0001F1FARU_5|3.7MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: a3b2ac61-6d47-48db-9c38-79999b7bbe16
+    port: 37017
+    server: dg.foldjc.top
+    skip-cert-verify: true
+    sni: dg.foldjc.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1ED\U0001F1F0HK_7|1.1MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: cdc48fdf-728c-4b46-9078-f9b755ba8e3c
+    port: 37013
+    server: tw.foldjc.top
+    skip-cert-verify: true
+    sni: tw.foldjc.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F7\U0001F1FARU_6|2.6MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: cdc48fdf-728c-4b46-9078-f9b755ba8e3c
+    port: 37017
+    server: dg.foldjc.top
+    skip-cert-verify: true
+    sni: dg.foldjc.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F7\U0001F1FARU_7|2.2MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 025a77b6-f5d4-49d6-a90d-9864dd0f1a35
+    port: 37017
+    server: dg.foldjc.top
+    skip-cert-verify: true
+    sni: dg.foldjc.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1ED\U0001F1F0HK_8|1.1MB/s"
     obfs: ''
     obfs-password: ''
     password: 869fe2a1-76a2-4b2c-ba1b-7a04358b8234
-    port: 37012
-    server: xjp.foldjc.top
-    skip-cert-verify: true
-    sni: xjp.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_9|983KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 025a77b6-f5d4-49d6-a90d-9864dd0f1a35
     port: 37013
     server: tw.foldjc.top
     skip-cert-verify: true
@@ -697,22 +486,10 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_21|7.0MB/s"
+    name: "\U0001F1F7\U0001F1FARU_8|3.0MB/s"
     obfs: ''
     obfs-password: ''
-    password: d9fb3813-3757-4cf2-9cee-f3eb70fe5373
-    port: 37011
-    server: yg.foldjc.top
-    skip-cert-verify: true
-    sni: yg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_11|2.9MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 025a77b6-f5d4-49d6-a90d-9864dd0f1a35
+    password: 869fe2a1-76a2-4b2c-ba1b-7a04358b8234
     port: 37017
     server: dg.foldjc.top
     skip-cert-verify: true
@@ -721,43 +498,7 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_10|962KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: cdc48fdf-728c-4b46-9078-f9b755ba8e3c
-    port: 37013
-    server: tw.foldjc.top
-    skip-cert-verify: true
-    sni: tw.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_12|2.7MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: cdc48fdf-728c-4b46-9078-f9b755ba8e3c
-    port: 37017
-    server: dg.foldjc.top
-    skip-cert-verify: true
-    sni: dg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_13|2.9MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: a3b2ac61-6d47-48db-9c38-79999b7bbe16
-    port: 37017
-    server: dg.foldjc.top
-    skip-cert-verify: true
-    sni: dg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_22|8.0MB/s"
+    name: "\U0001F1FA\U0001F1F8US_14|2.5MB/s"
     obfs: ''
     obfs-password: ''
     password: f9cec12b-2356-4001-8b36-5f070bc5f30f
@@ -769,22 +510,214 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_23|4.6MB/s"
+    name: "\U0001F1FA\U0001F1F8US_15|44.6MB/s"
     obfs: ''
     obfs-password: ''
-    password: d9fb3813-3757-4cf2-9cee-f3eb70fe5373
-    port: 37012
-    server: xjp.foldjc.top
+    password: c7dbce1e-4d6d-425b-9b37-320b34d22be5
+    port: 37011
+    server: yg.foldjc.top
     skip-cert-verify: true
-    sni: xjp.foldjc.top
+    sni: yg.foldjc.top
     type: hysteria2
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_11|970KB/s"
+    name: "\U0001F1FA\U0001F1F8US_16|38.8MB/s"
     obfs: ''
     obfs-password: ''
-    password: 2a988cfa-ac2c-42a5-8dc4-189b7e995b76
+    password: ffaef5d7-4030-4f9c-9c71-1eca01547e87
+    port: 37011
+    server: yg.foldjc.top
+    skip-cert-verify: true
+    sni: yg.foldjc.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F7\U0001F1FARU_9|3.5MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: f9cec12b-2356-4001-8b36-5f070bc5f30f
+    port: 37017
+    server: dg.foldjc.top
+    skip-cert-verify: true
+    sni: dg.foldjc.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1ED\U0001F1F0HK_9|1.1MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: f9cec12b-2356-4001-8b36-5f070bc5f30f
+    port: 37013
+    server: tw.foldjc.top
+    skip-cert-verify: true
+    sni: tw.foldjc.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_17|10.6MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: a23bda4d-4fd2-4f9f-a88a-42b7c5762d4f
+    port: 37011
+    server: yg.foldjc.top
+    skip-cert-verify: true
+    sni: yg.foldjc.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_18|18.9MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 8eb7c190-7f94-4ad6-9b19-b35ea5456275
+    port: 37011
+    server: yg.foldjc.top
+    skip-cert-verify: true
+    sni: yg.foldjc.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_19|11.6MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 102f34e6-7042-48c6-9877-a89ccef7f69b
+    port: 37011
+    server: yg.foldjc.top
+    skip-cert-verify: true
+    sni: yg.foldjc.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1ED\U0001F1F0HK_10|1.0MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: c7dbce1e-4d6d-425b-9b37-320b34d22be5
+    port: 37013
+    server: tw.foldjc.top
+    skip-cert-verify: true
+    sni: tw.foldjc.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1ED\U0001F1F0HK_11|1.2MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: ffaef5d7-4030-4f9c-9c71-1eca01547e87
+    port: 37013
+    server: tw.foldjc.top
+    skip-cert-verify: true
+    sni: tw.foldjc.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F7\U0001F1FARU_10|2.8MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: c7dbce1e-4d6d-425b-9b37-320b34d22be5
+    port: 37017
+    server: dg.foldjc.top
+    skip-cert-verify: true
+    sni: dg.foldjc.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EC\U0001F1E7GB_3|8.7MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 8391a553-d045-4184-bb68-746aaf9617b5
+    port: 37011
+    server: yg.foldjc.top
+    skip-cert-verify: true
+    sni: yg.foldjc.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F7\U0001F1FARU_11|3.2MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: ffaef5d7-4030-4f9c-9c71-1eca01547e87
+    port: 37017
+    server: dg.foldjc.top
+    skip-cert-verify: true
+    sni: dg.foldjc.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F7\U0001F1FARU_12|2.8MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: a23bda4d-4fd2-4f9f-a88a-42b7c5762d4f
+    port: 37017
+    server: dg.foldjc.top
+    skip-cert-verify: true
+    sni: dg.foldjc.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1ED\U0001F1F0HK_12|851KB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 8eb7c190-7f94-4ad6-9b19-b35ea5456275
+    port: 37013
+    server: tw.foldjc.top
+    skip-cert-verify: true
+    sni: tw.foldjc.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_20|5.9MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 0cb561b7-73bd-4c66-8d3d-08fccae297c1
+    port: 37011
+    server: yg.foldjc.top
+    skip-cert-verify: true
+    sni: yg.foldjc.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F7\U0001F1FARU_13|2.8MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 8eb7c190-7f94-4ad6-9b19-b35ea5456275
+    port: 37017
+    server: dg.foldjc.top
+    skip-cert-verify: true
+    sni: dg.foldjc.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_21|5.8MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 14a95cf9-e6d6-433b-88cf-c8a5db74f878
+    port: 37011
+    server: yg.foldjc.top
+    skip-cert-verify: true
+    sni: yg.foldjc.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1ED\U0001F1F0HK_13|1.0MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 14a95cf9-e6d6-433b-88cf-c8a5db74f878
     port: 37013
     server: tw.foldjc.top
     skip-cert-verify: true
@@ -796,687 +729,15 @@ proxies:
     name: "\U0001F1F7\U0001F1FARU_14|3.8MB/s"
     obfs: ''
     obfs-password: ''
-    password: 869fe2a1-76a2-4b2c-ba1b-7a04358b8234
-    port: 37014
-    server: yd.foldjc.top
-    skip-cert-verify: true
-    sni: yd.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_24|5.6MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: f9cec12b-2356-4001-8b36-5f070bc5f30f
-    port: 37012
-    server: xjp.foldjc.top
-    skip-cert-verify: true
-    sni: xjp.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_15|1.4MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 2a988cfa-ac2c-42a5-8dc4-189b7e995b76
-    port: 37017
-    server: dg.foldjc.top
-    skip-cert-verify: true
-    sni: dg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_12|868KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 869fe2a1-76a2-4b2c-ba1b-7a04358b8234
-    port: 37013
-    server: tw.foldjc.top
-    skip-cert-verify: true
-    sni: tw.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: ❓Other_3|571KB/s
-    obfs: ''
-    obfs-password: ''
-    password: f2c218ad-e0a4-424d-9f29-5070a9f9263a
-    port: 37017
-    server: dg.foldjc.top
-    skip-cert-verify: true
-    sni: dg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_16|2.9MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: d9fb3813-3757-4cf2-9cee-f3eb70fe5373
-    port: 37014
-    server: yd.foldjc.top
-    skip-cert-verify: true
-    sni: yd.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_17|2.8MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 869fe2a1-76a2-4b2c-ba1b-7a04358b8234
-    port: 37017
-    server: dg.foldjc.top
-    skip-cert-verify: true
-    sni: dg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_13|1.0MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: d9fb3813-3757-4cf2-9cee-f3eb70fe5373
-    port: 37013
-    server: tw.foldjc.top
-    skip-cert-verify: true
-    sni: tw.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_25|4.2MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: c53b7b4a-8704-4d8f-a1b0-05ecda70efd3
-    port: 37012
-    server: xjp.foldjc.top
-    skip-cert-verify: true
-    sni: xjp.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_18|3.0MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: d9fb3813-3757-4cf2-9cee-f3eb70fe5373
-    port: 37017
-    server: dg.foldjc.top
-    skip-cert-verify: true
-    sni: dg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_14|1.1MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: f9cec12b-2356-4001-8b36-5f070bc5f30f
-    port: 37013
-    server: tw.foldjc.top
-    skip-cert-verify: true
-    sni: tw.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_26|21.8MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: b28b9013-733f-427c-8612-a8a354917966
-    port: 37011
-    server: yg.foldjc.top
-    skip-cert-verify: true
-    sni: yg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_27|2.7MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 871f919b-dda1-46e6-89b8-c4243a7e572f
-    port: 37012
-    server: xjp.foldjc.top
-    skip-cert-verify: true
-    sni: xjp.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_15|1.3MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: f9cec12b-2356-4001-8b36-5f070bc5f30f
-    port: 37014
-    server: yd.foldjc.top
-    skip-cert-verify: true
-    sni: yd.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_19|3.7MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 871f919b-dda1-46e6-89b8-c4243a7e572f
-    port: 37014
-    server: yd.foldjc.top
-    skip-cert-verify: true
-    sni: yd.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_20|3.5MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: b28b9013-733f-427c-8612-a8a354917966
-    port: 37014
-    server: yd.foldjc.top
-    skip-cert-verify: true
-    sni: yd.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_28|1.8MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: b28b9013-733f-427c-8612-a8a354917966
-    port: 37012
-    server: xjp.foldjc.top
-    skip-cert-verify: true
-    sni: xjp.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_21|3.9MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: b28b9013-733f-427c-8612-a8a354917966
-    port: 37017
-    server: dg.foldjc.top
-    skip-cert-verify: true
-    sni: dg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_16|1.0MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: b28b9013-733f-427c-8612-a8a354917966
-    port: 37013
-    server: tw.foldjc.top
-    skip-cert-verify: true
-    sni: tw.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_22|3.4MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: f9cec12b-2356-4001-8b36-5f070bc5f30f
-    port: 37017
-    server: dg.foldjc.top
-    skip-cert-verify: true
-    sni: dg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_17|3.6MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: c7dbce1e-4d6d-425b-9b37-320b34d22be5
-    port: 37014
-    server: yd.foldjc.top
-    skip-cert-verify: true
-    sni: yd.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_29|1.4MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: c7dbce1e-4d6d-425b-9b37-320b34d22be5
-    port: 37012
-    server: xjp.foldjc.top
-    skip-cert-verify: true
-    sni: xjp.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_23|3.4MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: c7dbce1e-4d6d-425b-9b37-320b34d22be5
-    port: 37017
-    server: dg.foldjc.top
-    skip-cert-verify: true
-    sni: dg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_30|9.8MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: ffaef5d7-4030-4f9c-9c71-1eca01547e87
-    port: 37011
-    server: yg.foldjc.top
-    skip-cert-verify: true
-    sni: yg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_31|8.7MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: c7dbce1e-4d6d-425b-9b37-320b34d22be5
-    port: 37011
-    server: yg.foldjc.top
-    skip-cert-verify: true
-    sni: yg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_24|3.9MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: ffaef5d7-4030-4f9c-9c71-1eca01547e87
-    port: 37014
-    server: yd.foldjc.top
-    skip-cert-verify: true
-    sni: yd.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_18|1.0MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: c7dbce1e-4d6d-425b-9b37-320b34d22be5
-    port: 37013
-    server: tw.foldjc.top
-    skip-cert-verify: true
-    sni: tw.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_32|10.9MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: a23bda4d-4fd2-4f9f-a88a-42b7c5762d4f
-    port: 37011
-    server: yg.foldjc.top
-    skip-cert-verify: true
-    sni: yg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_33|1.8MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: ffaef5d7-4030-4f9c-9c71-1eca01547e87
-    port: 37012
-    server: xjp.foldjc.top
-    skip-cert-verify: true
-    sni: xjp.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_25|3.5MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: ffaef5d7-4030-4f9c-9c71-1eca01547e87
-    port: 37017
-    server: dg.foldjc.top
-    skip-cert-verify: true
-    sni: dg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_34|8.6MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 102f34e6-7042-48c6-9877-a89ccef7f69b
-    port: 37011
-    server: yg.foldjc.top
-    skip-cert-verify: true
-    sni: yg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_19|954KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: ffaef5d7-4030-4f9c-9c71-1eca01547e87
-    port: 37013
-    server: tw.foldjc.top
-    skip-cert-verify: true
-    sni: tw.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_26|4.4MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: a23bda4d-4fd2-4f9f-a88a-42b7c5762d4f
-    port: 37014
-    server: yd.foldjc.top
-    skip-cert-verify: true
-    sni: yd.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_35|11.8MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 8391a553-d045-4184-bb68-746aaf9617b5
-    port: 37011
-    server: yg.foldjc.top
-    skip-cert-verify: true
-    sni: yg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_36|945KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: a23bda4d-4fd2-4f9f-a88a-42b7c5762d4f
-    port: 37012
-    server: xjp.foldjc.top
-    skip-cert-verify: true
-    sni: xjp.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_20|1009KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: a23bda4d-4fd2-4f9f-a88a-42b7c5762d4f
-    port: 37013
-    server: tw.foldjc.top
-    skip-cert-verify: true
-    sni: tw.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_37|3.5MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 102f34e6-7042-48c6-9877-a89ccef7f69b
-    port: 37012
-    server: xjp.foldjc.top
-    skip-cert-verify: true
-    sni: xjp.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_27|4.6MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 102f34e6-7042-48c6-9877-a89ccef7f69b
-    port: 37014
-    server: yd.foldjc.top
-    skip-cert-verify: true
-    sni: yd.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EC\U0001F1E7GB_3|11.5MB/s"
-    obfs: ''
-    obfs-password: ''
     password: 14a95cf9-e6d6-433b-88cf-c8a5db74f878
-    port: 37011
-    server: yg.foldjc.top
-    skip-cert-verify: true
-    sni: yg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_28|2.5MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: a23bda4d-4fd2-4f9f-a88a-42b7c5762d4f
     port: 37017
     server: dg.foldjc.top
     skip-cert-verify: true
     sni: dg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_38|3.5MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 8391a553-d045-4184-bb68-746aaf9617b5
-    port: 37012
-    server: xjp.foldjc.top
-    skip-cert-verify: true
-    sni: xjp.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_21|4.1MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 8391a553-d045-4184-bb68-746aaf9617b5
-    port: 37014
-    server: yd.foldjc.top
-    skip-cert-verify: true
-    sni: yd.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_39|6.6MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 0cb561b7-73bd-4c66-8d3d-08fccae297c1
-    port: 37011
-    server: yg.foldjc.top
-    skip-cert-verify: true
-    sni: yg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_40|3.5MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 0cb561b7-73bd-4c66-8d3d-08fccae297c1
-    port: 37012
-    server: xjp.foldjc.top
-    skip-cert-verify: true
-    sni: xjp.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_22|1.1MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 102f34e6-7042-48c6-9877-a89ccef7f69b
-    port: 37013
-    server: tw.foldjc.top
-    skip-cert-verify: true
-    sni: tw.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_29|3.4MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 0cb561b7-73bd-4c66-8d3d-08fccae297c1
-    port: 37014
-    server: yd.foldjc.top
-    skip-cert-verify: true
-    sni: yd.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_30|1.6MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 102f34e6-7042-48c6-9877-a89ccef7f69b
-    port: 37017
-    server: dg.foldjc.top
-    skip-cert-verify: true
-    sni: dg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_23|1009KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 8391a553-d045-4184-bb68-746aaf9617b5
-    port: 37013
-    server: tw.foldjc.top
-    skip-cert-verify: true
-    sni: tw.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_41|3.2MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 14a95cf9-e6d6-433b-88cf-c8a5db74f878
-    port: 37012
-    server: xjp.foldjc.top
-    skip-cert-verify: true
-    sni: xjp.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_31|2.5MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 8391a553-d045-4184-bb68-746aaf9617b5
-    port: 37017
-    server: dg.foldjc.top
-    skip-cert-verify: true
-    sni: dg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_32|3.6MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 14a95cf9-e6d6-433b-88cf-c8a5db74f878
-    port: 37014
-    server: yd.foldjc.top
-    skip-cert-verify: true
-    sni: yd.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_24|927KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 0cb561b7-73bd-4c66-8d3d-08fccae297c1
-    port: 37013
-    server: tw.foldjc.top
-    skip-cert-verify: true
-    sni: tw.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_33|1.9MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 0cb561b7-73bd-4c66-8d3d-08fccae297c1
-    port: 37017
-    server: dg.foldjc.top
-    skip-cert-verify: true
-    sni: dg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_42|5.7MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 838282bf-646b-44d8-9075-41dac5e44e2d
-    port: 57238
-    server: mg1.jjzcloud.top
-    skip-cert-verify: true
-    sni: mg1.jjzcloud.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_43|5.8MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 838282bf-646b-44d8-9075-41dac5e44e2d
-    port: 57338
-    server: mg2.jjzcloud.top
-    skip-cert-verify: true
-    sni: mg2.jjzcloud.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_25|988KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 14a95cf9-e6d6-433b-88cf-c8a5db74f878
-    port: 37013
-    server: tw.foldjc.top
-    skip-cert-verify: true
-    sni: tw.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_44|4.4MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: bd83ed66-a775-4f7d-9827-386928ba42dc
-    port: 57238
-    server: mg1.jjzcloud.top
-    skip-cert-verify: true
-    sni: mg1.jjzcloud.top
     type: hysteria2
     up: ''
   - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_45|7.2MB/s"
+    name: "\U0001F1FA\U0001F1F8US_22|29.6MB/s"
     network: ws
     password: slch2024
     port: 2096
@@ -1488,151 +749,27 @@ proxies:
     ws-opts:
       headers:
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/67.0.3396.99 Safari/537.36
+          Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/63.0.3239.111 Mobile Safari/537.36
       path: /Telegram
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_46|4.2MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 3cda8cd5-c367-4f96-b6fd-01a76ec8996f
-    port: 57338
-    server: mg2.jjzcloud.top
-    skip-cert-verify: true
-    sni: mg2.jjzcloud.top
-    type: hysteria2
-    up: ''
   - cipher: aes-128-gcm
-    name: "\U0001F1FA\U0001F1F8US_47|41.1MB/s"
+    name: "\U0001F1FA\U0001F1F8US_23|13.3MB/s"
     password: shadowsocks
     port: 443
     server: 156.146.38.167
     type: ss
     udp: true
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_48|4.0MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 8a1f066f-a4f2-4187-957d-53c56155d2f0
-    port: 57238
-    server: mg1.jjzcloud.top
-    skip-cert-verify: true
-    sni: mg1.jjzcloud.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_49|3.8MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 05a5a4d4-796f-49aa-99ba-dba6edafa47e
-    port: 57338
-    server: mg2.jjzcloud.top
-    skip-cert-verify: true
-    sni: mg2.jjzcloud.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_50|4.0MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: e575c3da-0d28-4903-835c-f73406efb19a
-    port: 57238
-    server: mg1.jjzcloud.top
-    skip-cert-verify: true
-    sni: mg1.jjzcloud.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_51|4.0MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 05a5a4d4-796f-49aa-99ba-dba6edafa47e
-    port: 57238
-    server: mg1.jjzcloud.top
-    skip-cert-verify: true
-    sni: mg1.jjzcloud.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_34|2.8MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 14a95cf9-e6d6-433b-88cf-c8a5db74f878
-    port: 37017
-    server: dg.foldjc.top
-    skip-cert-verify: true
-    sni: dg.foldjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_52|2.9MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: bd83ed66-a775-4f7d-9827-386928ba42dc
-    port: 57338
-    server: mg2.jjzcloud.top
-    skip-cert-verify: true
-    sni: mg2.jjzcloud.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_53|3.0MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 8a1f066f-a4f2-4187-957d-53c56155d2f0
-    port: 57338
-    server: mg2.jjzcloud.top
-    skip-cert-verify: true
-    sni: mg2.jjzcloud.top
-    type: hysteria2
-    up: ''
   - cipher: rc4-md5
-    name: "\U0001F1FA\U0001F1F8US_54|17.2MB/s"
+    name: "\U0001F1FA\U0001F1F8US_24|77.8MB/s"
     password: 14fFPrbezE3HDZzsMOr6
     port: 8080
     server: 23.251.121.242
     type: ss
     udp: true
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_55|3.1MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: e575c3da-0d28-4903-835c-f73406efb19a
-    port: 57338
-    server: mg2.jjzcloud.top
-    skip-cert-verify: true
-    sni: mg2.jjzcloud.top
-    type: hysteria2
-    up: ''
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_56|26.5MB/s"
-    network: ws
-    port: 21014
-    server: 107.149.134.165
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: ff373066-b8b9-4537-a6a6-b7455e9b8cdf
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers: {}
-      max-early-data: 2048
-      path: /arki
-    xudp: true
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_57|12.1MB/s"
+    name: "\U0001F1FA\U0001F1F8US_25|10.7MB/s"
     network: ws
     port: 443
     server: 15.204.239.14
@@ -1649,7 +786,74 @@ proxies:
     servername: BlaZe-Us-14.BLazECLoUdmaIN.site
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EC\U0001F1E7GB_4|2.8MB/s"
+    name: "\U0001F1FA\U0001F1F8US_26|719KB/s"
+    obfs: ''
+    obfs-password: ''
+    password: bd83ed66-a775-4f7d-9827-386928ba42dc
+    port: 57338
+    server: mg2.jjzcloud.top
+    skip-cert-verify: true
+    sni: mg2.jjzcloud.top
+    type: hysteria2
+    up: ''
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1FA\U0001F1F8US_27|17.1MB/s"
+    password: f8f7aCzcPKbsF8p3
+    port: 990
+    server: 64.74.163.130
+    type: ss
+    udp: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_28|690KB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 838282bf-646b-44d8-9075-41dac5e44e2d
+    port: 57338
+    server: mg2.jjzcloud.top
+    skip-cert-verify: true
+    sni: mg2.jjzcloud.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_29|599KB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 05a5a4d4-796f-49aa-99ba-dba6edafa47e
+    port: 57338
+    server: mg2.jjzcloud.top
+    skip-cert-verify: true
+    sni: mg2.jjzcloud.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_30|540KB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 8a1f066f-a4f2-4187-957d-53c56155d2f0
+    port: 57338
+    server: mg2.jjzcloud.top
+    skip-cert-verify: true
+    sni: mg2.jjzcloud.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_31|2.5MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 838282bf-646b-44d8-9075-41dac5e44e2d
+    port: 57238
+    server: mg1.jjzcloud.top
+    skip-cert-verify: true
+    sni: mg1.jjzcloud.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_32|995KB/s"
     obfs: ''
     obfs-password: ''
     password: c91b3cf1-9780-4f0a-bf37-a376db8d18c9
@@ -1660,22 +864,128 @@ proxies:
     type: hysteria2
     up: ''
   - cipher: aes-256-cfb
-    name: "\U0001F1E8\U0001F1E6CA_1|11.1MB/s"
+    name: "\U0001F1E8\U0001F1E6CA_1|53.9MB/s"
     password: f8f7aCzcPKbsF8p3
     port: 989
     server: 79.127.233.170
     type: ss
     udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1FA\U0001F1F8US_58|6.0MB/s"
-    password: f8f7aCzcPKbsF8p3
-    port: 990
-    server: 64.74.163.130
-    type: ss
-    udp: true
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_59|6.3MB/s"
+    name: "\U0001F1FA\U0001F1F8US_33|2.5MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 8a1f066f-a4f2-4187-957d-53c56155d2f0
+    port: 57238
+    server: mg1.jjzcloud.top
+    skip-cert-verify: true
+    sni: mg1.jjzcloud.top
+    type: hysteria2
+    up: ''
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_34|23.3MB/s"
+    network: ws
+    port: 21014
+    server: 107.149.134.165
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: ff373066-b8b9-4537-a6a6-b7455e9b8cdf
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers: {}
+      max-early-data: 2048
+      path: /arki
+    xudp: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_35|2.4MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: c91b3cf1-9780-4f0a-bf37-a376db8d18c9
+    port: 57238
+    server: mg1.jjzcloud.top
+    skip-cert-verify: true
+    sni: mg1.jjzcloud.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_36|2.4MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 6cf6eebe-f0ff-48b5-8444-494fde397d0b
+    port: 57238
+    server: mg1.jjzcloud.top
+    skip-cert-verify: true
+    sni: mg1.jjzcloud.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_37|1.8MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 3cda8cd5-c367-4f96-b6fd-01a76ec8996f
+    port: 57238
+    server: mg1.jjzcloud.top
+    skip-cert-verify: true
+    sni: mg1.jjzcloud.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_38|1.2MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: bd83ed66-a775-4f7d-9827-386928ba42dc
+    port: 57238
+    server: mg1.jjzcloud.top
+    skip-cert-verify: true
+    sni: mg1.jjzcloud.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_39|1.1MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 05a5a4d4-796f-49aa-99ba-dba6edafa47e
+    port: 57238
+    server: mg1.jjzcloud.top
+    skip-cert-verify: true
+    sni: mg1.jjzcloud.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_40|1.2MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: e575c3da-0d28-4903-835c-f73406efb19a
+    port: 57338
+    server: mg2.jjzcloud.top
+    skip-cert-verify: true
+    sni: mg2.jjzcloud.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_41|1.7MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: e575c3da-0d28-4903-835c-f73406efb19a
+    port: 57238
+    server: mg1.jjzcloud.top
+    skip-cert-verify: true
+    sni: mg1.jjzcloud.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_42|1.4MB/s"
     obfs: ''
     obfs-password: ''
     password: 6cf6eebe-f0ff-48b5-8444-494fde397d0b
@@ -1687,15 +997,15 @@ proxies:
     up: ''
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_60|20.7MB/s"
+    name: "\U0001F1FA\U0001F1F8US_43|103.1MB/s"
     network: ws
-    port: 40982
-    server: 107.149.134.165
+    port: 3649
+    server: 47.251.75.162
     skip-cert-verify: false
     tls: false
     type: vmess
     udp: true
-    uuid: b9474847-8724-491a-a042-cfc245d36024
+    uuid: f0d0112a-9539-4513-a6dd-171c9361eb23
     ws-opts:
       early-data-header-name: Sec-WebSocket-Protocol
       headers: {}
@@ -1704,7 +1014,7 @@ proxies:
     xudp: true
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_61|18.4MB/s"
+    name: "\U0001F1FA\U0001F1F8US_44|12.6MB/s"
     network: ws
     port: 5855
     server: 107.149.134.165
@@ -1720,15 +1030,78 @@ proxies:
       path: /arki
     xudp: true
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F3\U0001F1F1NL_1|8.7MB/s"
+    name: "\U0001F1E8\U0001F1E6CA_2|9.2MB/s"
+    password: JIhN6rBKkaEboLNXVSv5rq
+    port: 80
+    server: 142.4.216.225
+    type: ss
+    udp: true
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_45|6.0MB/s"
+    network: ws
+    port: 40982
+    server: 107.149.134.165
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: b9474847-8724-491a-a042-cfc245d36024
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers: {}
+      max-early-data: 2048
+      path: /arki
+    xudp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F3\U0001F1F1NL_1|5.8MB/s"
     password: QCXDxuDlTTMD7jtgHUjIoj
     port: 8080
     server: 151.242.251.147
     type: ss
     udp: true
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_46|10.9MB/s"
+    network: ws
+    port: 12269
+    server: 2.58.87.221
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: db85ff0e-c33f-401d-c415-4c7cce135704
+    ws-opts:
+      headers: {}
+      path: /
+    xudp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1E6\U0001F1F2AM_1|5.1MB/s"
+    password: eUh4lSpi7nOYj0vSrqLUh0
+    port: 8506
+    server: 95.163.176.37
+    type: ss
+    udp: true
+  - alterId: 0
+    cipher: auto
+    name: ❓Other_1|2.4MB/s
+    network: ws
+    port: 443
+    server: 104.18.149.76
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+    ws-opts:
+      headers:
+        Host: us.kkp.me.eu.org
+      path: /aa
+    xudp: true
+    servername: us.kkp.me.eu.org
   - alterId: 1
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_62|12.6MB/s"
+    name: "\U0001F1E9\U0001F1EADE_2|5.4MB/s"
     network: ws
     port: 443
     server: fapeng.org
@@ -1743,45 +1116,9 @@ proxies:
       path: /linkvws
     xudp: true
     servername: fapeng.org
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_63|2.9MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: c91b3cf1-9780-4f0a-bf37-a376db8d18c9
-    port: 57238
-    server: mg1.jjzcloud.top
-    skip-cert-verify: true
-    sni: mg1.jjzcloud.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_64|4.1MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 6cf6eebe-f0ff-48b5-8444-494fde397d0b
-    port: 57238
-    server: mg1.jjzcloud.top
-    skip-cert-verify: true
-    sni: mg1.jjzcloud.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_65|3.1MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 3cda8cd5-c367-4f96-b6fd-01a76ec8996f
-    port: 57238
-    server: mg1.jjzcloud.top
-    skip-cert-verify: true
-    sni: mg1.jjzcloud.top
-    type: hysteria2
-    up: ''
   - alterId: 1
     cipher: auto
-    name: "\U0001F1E8\U0001F1E6CA_2|53.8MB/s"
+    name: "\U0001F1E9\U0001F1EADE_3|6.6MB/s"
     network: ws
     port: 443
     server: lammaland.org
@@ -1797,35 +1134,14 @@ proxies:
     xudp: true
     servername: lammaland.org
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F3\U0001F1F1NL_2|8.1MB/s"
-    password: cvII85TrW6n0OGyfpHVS1u
-    port: 8080
-    server: 45.87.175.188
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1E6\U0001F1F2AM_1|6.3MB/s"
-    password: eUh4lSpi7nOYj0vSrqLUh0
-    port: 8506
-    server: 95.163.176.37
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1EB\U0001F1F7FR_1|6.1MB/s"
-    password: qXvO7zYU7KeaB0Md7DQLow
-    port: 1080
-    server: 51.195.119.47
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F3\U0001F1F1NL_3|8.4MB/s"
-    password: 4a2rfixophdjffa8KVA4Aa
-    port: 8080
-    server: 45.87.175.166
+    name: "\U0001F1FA\U0001F1F8US_47|714KB/s"
+    password: 360e21d21977dc11
+    port: 57456
+    server: 104.167.197.25
     type: ss
     udp: true
   - cipher: aes-128-cfb
-    name: "\U0001F1E8\U0001F1E6CA_3|6.9MB/s"
+    name: "\U0001F1E8\U0001F1E6CA_3|3.0MB/s"
     obfs: http_post
     password: $$Turb0VPN$$
     port: 443
@@ -1833,40 +1149,133 @@ proxies:
     server: ssca.irundns.net
     type: ssr
     udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1E8\U0001F1E6CA_4|11.2MB/s"
-    password: JIhN6rBKkaEboLNXVSv5rq
-    port: 80
-    server: 142.4.216.225
-    type: ss
-    udp: true
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_66|788KB/s"
+    name: "\U0001F1E8\U0001F1E6CA_4|2.7MB/s"
     network: ws
-    port: 3649
-    server: 47.251.75.162
+    port: 80
+    server: 51.79.102.253
     skip-cert-verify: false
     tls: false
     type: vmess
     udp: true
-    uuid: f0d0112a-9539-4513-a6dd-171c9361eb23
+    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
     ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
       headers: {}
-      max-early-data: 2048
-      path: /arki
+      path: /IOebhLMhl1CTbFHbL95myfRX2
     xudp: true
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1E9\U0001F1EADE_1|2.2MB/s"
+    name: "\U0001F1E9\U0001F1EADE_4|3.0MB/s"
     password: oXGp1+ihlfKg826H
     port: 1866
     server: 185.177.229.245
     type: ss
     udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F3\U0001F1F1NL_2|1.5MB/s"
+    password: 4a2rfixophdjffa8KVA4Aa
+    port: 8080
+    server: 45.87.175.166
+    type: ss
+    udp: true
+  - cipher: aes-256-cfb
+    name: "\U0001F1F8\U0001F1EASE_1|2.6MB/s"
+    password: amazonskr05
+    port: 443
+    server: 51.21.249.115
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1FA\U0001F1F8US_48|832KB/s"
+    password: faBAoD54k87UJG7
+    port: 2376
+    server: 38.107.226.159
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1FA\U0001F1F8US_49|542KB/s"
+    password: FoOiGlkAA9yPEGP
+    port: 7306
+    server: 38.110.1.122
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1FA\U0001F1F8US_50|1.1MB/s"
+    password: FoOiGlkAA9yPEGP
+    port: 7307
+    server: 38.107.226.159
+    type: ss
+    udp: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_51|17.3MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: a283eacc-0157-410f-93d9-50cb91e0565e
+    port: 57238
+    server: mg1.jjzcloud.top
+    skip-cert-verify: true
+    sni: mg1.jjzcloud.top
+    type: hysteria2
+    up: ''
+  - cipher: aes-256-cfb
+    name: "\U0001F1F5\U0001F1F1PL_1|561KB/s"
+    password: GA9KzeEgvfxNrgmM
+    port: 9019
+    server: 217.30.10.18
+    type: ss
+    udp: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_52|13.2MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: bc4b33b3-b706-40e9-a612-3c5a967ca1c9
+    port: 57238
+    server: mg1.jjzcloud.top
+    skip-cert-verify: true
+    sni: mg1.jjzcloud.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_53|8.0MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: a283eacc-0157-410f-93d9-50cb91e0565e
+    port: 57338
+    server: mg2.jjzcloud.top
+    skip-cert-verify: true
+    sni: mg2.jjzcloud.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_54|13.0MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 879fa4e5-4d26-4dab-aa15-39fbaa0419a1
+    port: 57238
+    server: mg1.jjzcloud.top
+    skip-cert-verify: true
+    sni: mg1.jjzcloud.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_55|6.3MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: bc4b33b3-b706-40e9-a612-3c5a967ca1c9
+    port: 57338
+    server: mg2.jjzcloud.top
+    skip-cert-verify: true
+    sni: mg2.jjzcloud.top
+    type: hysteria2
+    up: ''
   - alterId: 2
     cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_26|813KB/s"
+    name: "\U0001F1ED\U0001F1F0HK_14|1.4MB/s"
     network: ws
     port: 80
     server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
@@ -1877,109 +1286,20 @@ proxies:
     uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
     ws-opts:
       headers:
-        Host: broadcastlv.chat.bilibili.com
+        Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
       path: /
     xudp: true
+    servername: broadcastlv.chat.bilibili.com
   - cipher: aes-256-gcm
-    name: "\U0001F1FA\U0001F1F8US_67|984KB/s"
-    password: faBAoD54k87UJG7
-    port: 2376
-    server: 38.107.226.159
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: "\U0001F1FA\U0001F1F8US_68|566KB/s"
-    password: PCnnH6SQSnfoS27
-    port: 8090
-    server: 38.110.1.122
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: "\U0001F1FA\U0001F1F8US_69|825KB/s"
-    password: FoOiGlkAA9yPEGP
-    port: 7306
-    server: 38.110.1.122
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: "\U0001F1FA\U0001F1F8US_70|1002KB/s"
-    password: FoOiGlkAA9yPEGP
-    port: 7307
-    server: 38.107.226.159
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: "\U0001F1FA\U0001F1F8US_71|812KB/s"
-    password: XKFKl2rULjIp74
-    port: 8009
+    name: "\U0001F1FA\U0001F1F8US_56|743KB/s"
+    password: KixLvKzwjekG00rm
+    port: 8000
     server: 23.157.40.101
     type: ss
     udp: true
-  - cipher: aes-256-cfb
-    name: "\U0001F1F5\U0001F1F1PL_1|666KB/s"
-    password: GA9KzeEgvfxNrgmM
-    port: 9019
-    server: 217.30.10.18
-    type: ss
-    udp: true
-  - cipher: aes-256-cfb
-    name: "\U0001F1F5\U0001F1F1PL_2|779KB/s"
-    password: UTJA57ypk2XKQpnm
-    port: 9033
-    server: 217.30.10.18
-    type: ss
-    udp: true
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_72|4.3MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: a283eacc-0157-410f-93d9-50cb91e0565e
-    port: 57338
-    server: mg2.jjzcloud.top
-    skip-cert-verify: true
-    sni: mg2.jjzcloud.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_73|4.4MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: bc4b33b3-b706-40e9-a612-3c5a967ca1c9
-    port: 57338
-    server: mg2.jjzcloud.top
-    skip-cert-verify: true
-    sni: mg2.jjzcloud.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_74|3.7MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: a283eacc-0157-410f-93d9-50cb91e0565e
-    port: 57238
-    server: mg1.jjzcloud.top
-    skip-cert-verify: true
-    sni: mg1.jjzcloud.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_75|3.5MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: bc4b33b3-b706-40e9-a612-3c5a967ca1c9
-    port: 57238
-    server: mg1.jjzcloud.top
-    skip-cert-verify: true
-    sni: mg1.jjzcloud.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_76|4.0MB/s"
+    name: "\U0001F1FA\U0001F1F8US_57|4.0MB/s"
     obfs: ''
     obfs-password: ''
     password: 879fa4e5-4d26-4dab-aa15-39fbaa0419a1
@@ -1991,79 +1311,7 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_77|4.1MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 879fa4e5-4d26-4dab-aa15-39fbaa0419a1
-    port: 57238
-    server: mg1.jjzcloud.top
-    skip-cert-verify: true
-    sni: mg1.jjzcloud.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_78|5.5MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 5fe87ec5-d448-43e6-ba81-f7a63bc0eb10
-    port: 5555
-    server: wmg1.wanlidag.top
-    skip-cert-verify: true
-    sni: wmg1.wanlidag.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_79|5.1MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: bf71d445-bc41-48e6-bc31-09054e140636
-    port: 5555
-    server: wmg1.wanlidag.top
-    skip-cert-verify: true
-    sni: wmg1.wanlidag.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_80|5.5MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: e521876c-4d16-4c32-b3e3-393404d0389e
-    port: 5555
-    server: wmg1.wanlidag.top
-    skip-cert-verify: true
-    sni: wmg1.wanlidag.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_81|5.6MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: f82e3d63-35f2-42cd-82a1-b39bcd813da7
-    port: 5555
-    server: wmg1.wanlidag.top
-    skip-cert-verify: true
-    sni: wmg1.wanlidag.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_82|5.1MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: d519b41e-49da-498a-8a33-25d18b2f4887
-    port: 5555
-    server: wmg1.wanlidag.top
-    skip-cert-verify: true
-    sni: wmg1.wanlidag.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_83|3.6MB/s"
+    name: "\U0001F1FA\U0001F1F8US_58|1.2MB/s"
     obfs: ''
     obfs-password: ''
     password: 52d22bd8-3c2b-479d-b7eb-5e4b468c566c
@@ -2075,10 +1323,10 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_84|3.9MB/s"
+    name: "\U0001F1FA\U0001F1F8US_59|2.2MB/s"
     obfs: ''
     obfs-password: ''
-    password: 769bbc7e-44c5-478f-acf4-e95bbf8e286f
+    password: bf71d445-bc41-48e6-bc31-09054e140636
     port: 5555
     server: wmg1.wanlidag.top
     skip-cert-verify: true
@@ -2087,10 +1335,10 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_85|3.8MB/s"
+    name: "\U0001F1FA\U0001F1F8US_60|2.1MB/s"
     obfs: ''
     obfs-password: ''
-    password: 9086b769-780c-40ea-ac1a-d504b6293c15
+    password: e521876c-4d16-4c32-b3e3-393404d0389e
     port: 5555
     server: wmg1.wanlidag.top
     skip-cert-verify: true
@@ -2099,10 +1347,10 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EC\U0001F1E7GB_5|4.0MB/s"
+    name: "\U0001F1FA\U0001F1F8US_61|2.1MB/s"
     obfs: ''
     obfs-password: ''
-    password: 602e1576-e1bf-4c6a-8331-e6ce4388f06d
+    password: f82e3d63-35f2-42cd-82a1-b39bcd813da7
     port: 5555
     server: wmg1.wanlidag.top
     skip-cert-verify: true
@@ -2111,10 +1359,10 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_86|3.9MB/s"
+    name: "\U0001F1FA\U0001F1F8US_62|1.3MB/s"
     obfs: ''
     obfs-password: ''
-    password: 30d32d9f-6e8c-48b1-8157-08be60d589b7
+    password: 5fe87ec5-d448-43e6-ba81-f7a63bc0eb10
     port: 5555
     server: wmg1.wanlidag.top
     skip-cert-verify: true
@@ -2123,10 +1371,10 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_87|3.6MB/s"
+    name: "\U0001F1FA\U0001F1F8US_63|1.6MB/s"
     obfs: ''
     obfs-password: ''
-    password: bcc06b10-fe23-41c2-b781-95a44cd952a1
+    password: d519b41e-49da-498a-8a33-25d18b2f4887
     port: 5555
     server: wmg1.wanlidag.top
     skip-cert-verify: true
@@ -2135,7 +1383,7 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_88|3.9MB/s"
+    name: "\U0001F1FA\U0001F1F8US_64|1.4MB/s"
     obfs: ''
     obfs-password: ''
     password: be8ad072-0ce4-48f9-879a-9c97c6bbc375
@@ -2147,10 +1395,58 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_89|3.2MB/s"
+    name: "\U0001F1FA\U0001F1F8US_65|1.9MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 769bbc7e-44c5-478f-acf4-e95bbf8e286f
+    port: 5555
+    server: wmg1.wanlidag.top
+    skip-cert-verify: true
+    sni: wmg1.wanlidag.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_66|1.7MB/s"
     obfs: ''
     obfs-password: ''
     password: 60b831bd-b2a0-41d3-bb22-058e7d8421b9
+    port: 5555
+    server: wmg1.wanlidag.top
+    skip-cert-verify: true
+    sni: wmg1.wanlidag.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_67|1.7MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 9086b769-780c-40ea-ac1a-d504b6293c15
+    port: 5555
+    server: wmg1.wanlidag.top
+    skip-cert-verify: true
+    sni: wmg1.wanlidag.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_68|2.0MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: bcc06b10-fe23-41c2-b781-95a44cd952a1
+    port: 5555
+    server: wmg1.wanlidag.top
+    skip-cert-verify: true
+    sni: wmg1.wanlidag.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_69|1.1MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 30d32d9f-6e8c-48b1-8157-08be60d589b7
     port: 5555
     server: wmg1.wanlidag.top
     skip-cert-verify: true
@@ -2161,7 +1457,7 @@ proxies:
       - ''
     alterId: '0'
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_90|3.1MB/s"
+    name: "\U0001F1FA\U0001F1F8US_70|1.1MB/s"
     network: tcp
     port: 41100
     server: 15.204.234.200
@@ -2175,21 +1471,40 @@ proxies:
       - ''
     alterId: '0'
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_91|3.6MB/s"
-    network: tcp
-    port: 15361
-    server: 15.204.11.190
+    name: "\U0001F1EE\U0001F1F3IN_1|1.0MB/s"
+    network: ws
+    port: 80
+    server: 152.67.8.205
     skip-cert-verify: false
     tls: false
     type: vmess
     udp: true
-    uuid: 5d7bf9e3-415c-40f3-c66d-a54ea0fd860e
+    uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+    ws-opts:
+      headers: {}
+      path: /
     xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F8\U0001F1EESI_1|2.2MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: pkIWxbuPAasjatPaHnAaTnCxVj1RkDFsJEWpLUTOcWY
+      short-id: 9917d2350096
+    server: 92.60.78.221
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6897c181-24b1-4880-8660-e6c5c7ee13c7
+    xudp: true
+    servername: www.tradingview.com
   - alpn:
       - ''
     alterId: '0'
     cipher: auto
-    name: "\U0001F1EE\U0001F1F3IN_1|1.3MB/s"
+    name: "\U0001F1EE\U0001F1F3IN_2|1.3MB/s"
     network: tcp
     port: 10534
     server: 94.136.185.230
@@ -2199,15 +1514,44 @@ proxies:
     udp: true
     uuid: b01c7ef9-33ec-41f6-bfbf-77ddc4d21649
     xudp: true
-  - cipher: aes-256-gcm
-    name: "\U0001F1FA\U0001F1F8US_92|5.8MB/s"
-    password: iHapGY8XoW
-    port: 44642
-    server: 154.44.15.133
-    type: ss
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1F9\U0001F1FCTW_1|1.7MB/s"
+    network: ws
+    port: 20521
+    server: 103.61.139.137
+    skip-cert-verify: false
+    tls: false
+    type: vmess
     udp: true
+    uuid: f8d93cfb-3d5d-447c-a697-16496dd74697
+    ws-opts:
+      headers: {}
+      path: /
+    xudp: true
+  - client-fingerprint: randomized
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_71|8.3MB/s"
+    network: ws
+    port: 443
+    server: www.speedtest.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48caa578-241e-43eb-817f-0854b84b0fb0
+    ws-opts:
+      headers:
+        Host: conFiG-VOrteX55-AR5.pagES.deV
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.113 Safari/537.36
+      path: /edrlz7qvRheKjll8/MTQ0LjI0LjkwLjEwNw==
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: conFiG-VOrteX55-AR5.pagES.deV
   - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_93|2.9MB/s"
+    name: "\U0001F1FA\U0001F1F8US_72|20.3MB/s"
     network: ws
     password: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
     port: 443
@@ -2220,54 +1564,52 @@ proxies:
       headers:
         User-Agent: >-
           Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/69.0.3497.100 Safari/537.36
+          like Gecko) Chrome/63.0.3239.132 Safari/537.36
       path: /x9F83IcyjcEyBXZBROjL3Q5vTymr
+  - cipher: aes-256-gcm
+    name: "\U0001F1FA\U0001F1F8US_73|6.0MB/s"
+    password: iHapGY8XoW
+    port: 44642
+    server: 154.44.15.133
+    type: ss
+    udp: true
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1FA\U0001F1F8US_94|1.4MB/s"
+    name: "\U0001F1E9\U0001F1EADE_5|4.3MB/s"
+    password: c40641c1f89e7acb
+    port: 57456
+    server: de.vpnsparta.pro
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1FA\U0001F1F8US_74|530KB/s"
     password: 8d73e088-dc5a-4dfe-8927-56351ee80407
     port: 30789
     server: 144.126.146.38
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1FA\U0001F1F8US_95|529KB/s"
+    name: "\U0001F1FA\U0001F1F8US_75|745KB/s"
     password: c1abd8d4-5228-492c-b827-0304e62b7ab0
     port: 30941
     server: 144.126.146.38
     type: ss
     udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1FA\U0001F1F8US_96|567KB/s"
-    password: 741ddced-e6ee-4175-9c1a-e524009f9045
-    port: 30100
-    server: 144.126.146.38
+  - cipher: aes-128-gcm
+    name: "\U0001F1EE\U0001F1F3IN_3|1.2MB/s"
+    password: 162629d7-cb17-43b1-82c9-f9c7ae6cba70
+    port: 30607
+    server: 82.180.146.173
     type: ss
     udp: true
   - cipher: aes-128-gcm
-    name: "\U0001F1EE\U0001F1F3IN_2|2.6MB/s"
+    name: "\U0001F1EE\U0001F1F3IN_4|624KB/s"
     password: 93498539-7838-4836-b9b3-8311ffc79bcf
     port: 35652
     server: 82.180.146.173
     type: ss
     udp: true
   - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_97|6.7MB/s"
-    network: ws
-    password: slch2024
-    port: 8443
-    server: 104.18.2.108
-    skip-cert-verify: false
-    sni: ocost-dy.wmlefl.cc
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/58.0.3029.110 Safari/537.36
-      path: /
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_98|6.2MB/s"
+    name: "\U0001F1FA\U0001F1F8US_76|30.1MB/s"
     network: ws
     password: slch2024
     port: 443
@@ -2279,11 +1621,27 @@ proxies:
     ws-opts:
       headers:
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/45.0.2454.85 Safari/537.36
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.132 Safari/537.36
       path: /
   - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_99|6.9MB/s"
+    name: "\U0001F1FA\U0001F1F8US_77|7.4MB/s"
+    network: ws
+    password: slch2024
+    port: 8443
+    server: 104.18.2.108
+    skip-cert-verify: false
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.102 Safari/537.36
+      path: /
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_78|13.2MB/s"
     network: ws
     password: 2e65577e-8fdb-4bb1-a495-96f3122099a7
     port: 443
@@ -2295,27 +1653,10 @@ proxies:
     ws-opts:
       headers:
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
-          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
-          Chrome/59.0.3071.125 Mobile Safari/537.36
-      path: /Ws1FkyQlT190JQOSZb9TPR
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_100|794KB/s"
-    network: ws
-    password: juzi
-    port: 443
-    server: 172.66.46.221
-    skip-cert-verify: false
-    sni: juzi8186-sr1.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
           Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/68.0.3440.75 Safari/537.36
-      path: /
-  - name: "\U0001F1F8\U0001F1ECSG_1|1.8MB/s"
+          like Gecko) Chrome/60.0.3112.113 Safari/537.36
+      path: /Ws1FkyQlT190JQOSZb9TPR
+  - name: "\U0001F1F8\U0001F1ECSG_3|988KB/s"
     network: ws
     port: 80
     server: 5.10.215.255
@@ -2326,122 +1667,36 @@ proxies:
       headers:
         Host: myvps.nilphreakz.me
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/54.0.2840.99 Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_2|1.8MB/s"
-    network: ws
-    port: 80
-    server: 5.10.246.255
-    type: vless
-    udp: true
-    uuid: 7d265652-cacf-4b9a-aee6-f20ba4dbfe04
-    ws-opts:
-      headers:
-        Host: myvps.nilphreakz.me
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
+          Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
           Safari/537.36
       path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_3|1.6MB/s"
-    network: ws
-    port: 80
-    server: 5.10.247.255
-    type: vless
+  - alpn:
+      - h2
+      - http/1.1
+    alterId: '0'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_79|15.0MB/s"
+    network: tcp
+    port: 11606
+    server: hd.cc.990777.xyz
+    skip-cert-verify: false
+    tls: true
+    type: vmess
     udp: true
-    uuid: 0a6936a5-12cb-4038-86bb-562894b7816f
-    ws-opts:
-      headers:
-        Host: myvps.nilphreakz.me
-        User-Agent: >-
-          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
+    uuid: b557b631-c447-42ee-8099-f688fcaf4e06
     xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_4|1.1MB/s"
+    servername: hd.cc.990777.xyz
+  - name: "\U0001F1F8\U0001F1ECSG_4|999KB/s"
     network: ws
     port: 80
-    server: 45.40.148.255
+    server: 5.10.214.255
     type: vless
     udp: true
-    uuid: 2ad33a9c-ee61-4df4-96e1-1bf0987d082e
-    ws-opts:
-      headers:
-        Host: myvps.nilphreakz.me
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/56.0.2924.87 Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_5|1.1MB/s"
-    network: ws
-    port: 80
-    server: 31.43.179.255
-    type: vless
-    udp: true
-    uuid: f1062c0c-7a36-4250-af5b-b8b47c8a40ca
-    ws-opts:
-      headers:
-        Host: myvps.nilphreakz.me
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.111 Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_6|1.2MB/s"
-    network: ws
-    port: 80
-    server: 31.12.75.255
-    type: vless
-    udp: true
-    uuid: 77ece81f-a99a-4bd9-be0f-3c562c4dab8d
-    ws-opts:
-      headers:
-        Host: myvps.nilphreakz.me
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.80 Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_7|1.1MB/s"
-    network: ws
-    port: 80
-    server: 8.6.112.255
-    type: vless
-    udp: true
-    uuid: f0d0c1f0-bd67-4c9d-9827-757dc0043fab
-    ws-opts:
-      headers:
-        Host: myvps.nilphreakz.me
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.63 Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_8|1.2MB/s"
-    network: ws
-    port: 80
-    server: 45.40.151.255
-    type: vless
-    udp: true
-    uuid: 15510a34-7cec-411a-9256-279241522f81
+    uuid: 67b05dba-e32b-424a-b5a8-61a2f4097a14
     ws-opts:
       headers:
         Host: myvps.nilphreakz.me
@@ -2453,109 +1708,7 @@ proxies:
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_9|1.7MB/s"
-    network: ws
-    port: 80
-    server: 5.182.34.255
-    type: vless
-    udp: true
-    uuid: 7c06892a-d102-47cc-846d-e1d445dc9d2c
-    ws-opts:
-      headers:
-        Host: myvps.nilphreakz.me
-        User-Agent: >-
-          Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/44.0.2403.157 Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_10|921KB/s"
-    network: ws
-    port: 80
-    server: 31.185.108.255
-    type: vless
-    udp: true
-    uuid: 7baac04e-a297-48a0-99e9-2deba9ae64fb
-    ws-opts:
-      headers:
-        Host: myvps.nilphreakz.me
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
-      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_11|1.2MB/s"
-    network: ws
-    port: 80
-    server: 5.10.214.255
-    type: vless
-    udp: true
-    uuid: 67b05dba-e32b-424a-b5a8-61a2f4097a14
-    ws-opts:
-      headers:
-        Host: myvps.nilphreakz.me
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/45.0.2454.93 Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_12|1.1MB/s"
-    network: ws
-    port: 80
-    server: 45.8.211.255
-    type: vless
-    udp: true
-    uuid: 89b2eb61-c9c8-4990-9205-7f5eec0501fc
-    ws-opts:
-      headers:
-        Host: myvps.nilphreakz.me
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
-          Gecko) Chrome/26.0.1410.64 Safari/537.31
-      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_13|1.5MB/s"
-    network: ws
-    port: 80
-    server: 37.153.171.255
-    type: vless
-    udp: true
-    uuid: efdbbe04-38e0-46f3-a1c2-8c0c5604c636
-    ws-opts:
-      headers:
-        Host: myvps.nilphreakz.me
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.89 Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_14|1.0MB/s"
-    network: ws
-    port: 80
-    server: 45.80.110.255
-    type: vless
-    udp: true
-    uuid: 7c326126-7e75-457d-a8cd-8120da01eb25
-    ws-opts:
-      headers:
-        Host: myvps.nilphreakz.me
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_15|925KB/s"
+  - name: "\U0001F1F8\U0001F1ECSG_5|1.1MB/s"
     network: ws
     port: 80
     server: 45.80.111.255
@@ -2566,13 +1719,13 @@ proxies:
       headers:
         Host: myvps.nilphreakz.me
         User-Agent: >-
-          Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-          Slackware/Chrome/12.0.742.100 Safari/534.30
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/68.0.3440.106 Safari/537.36
       path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_16|1.2MB/s"
+  - name: "\U0001F1F8\U0001F1ECSG_6|992KB/s"
     network: ws
     port: 80
     server: 45.40.154.255
@@ -2583,14 +1736,31 @@ proxies:
       headers:
         Host: myvps.nilphreakz.me
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.117 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+  - name: "\U0001F1F8\U0001F1ECSG_7|1.2MB/s"
+    network: ws
+    port: 80
+    server: 45.40.148.255
+    type: vless
+    udp: true
+    uuid: 2ad33a9c-ee61-4df4-96e1-1bf0987d082e
+    ws-opts:
+      headers:
+        Host: myvps.nilphreakz.me
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
           Safari/537.36
       path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_17|997KB/s"
+  - name: "\U0001F1F8\U0001F1ECSG_8|1.0MB/s"
     network: ws
     port: 80
     server: 45.40.144.255
@@ -2601,58 +1771,25 @@ proxies:
       headers:
         Host: myvps.nilphreakz.me
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.106 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/48.0.2564.109 Safari/537.36
       path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_18|1.3MB/s"
+  - name: "\U0001F1F8\U0001F1ECSG_9|1.2MB/s"
     network: ws
     port: 80
-    server: 8.34.70.255
+    server: 14.102.228.255
     type: vless
     udp: true
-    uuid: eed712ff-17d2-4e0b-bf0b-19ff3451b97a
+    uuid: a225a8ff-1505-4dfd-a3b7-59737bb499ee
     ws-opts:
       headers:
         Host: myvps.nilphreakz.me
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.102 Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-  - alpn:
-      - h2
-      - http/1.1
-    alterId: '0'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_101|9.0MB/s"
-    network: tcp
-    port: 11606
-    server: hd.cc.990777.xyz
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: b557b631-c447-42ee-8099-f688fcaf4e06
-    xudp: true
-    servername: hd.cc.990777.xyz
-  - name: "\U0001F1F8\U0001F1ECSG_19|875KB/s"
-    network: ws
-    port: 80
-    server: 45.85.118.255
-    type: vless
-    udp: true
-    uuid: cb3ec36e-a0c2-4798-a340-9cb7eaee739a
-    ws-opts:
-      headers:
-        Host: myvps.nilphreakz.me
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.86 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/31.0.1650.57 Safari/537.36
       path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
@@ -2663,7 +1800,7 @@ proxies:
       headers: {}
       path:
         - /
-    name: "\U0001F1FA\U0001F1F8US_102|34.3MB/s"
+    name: "\U0001F1FA\U0001F1F8US_80|38.8MB/s"
     network: tcp
     port: 10001
     reality-opts:
@@ -2676,123 +1813,59 @@ proxies:
     uuid: 482d4686-6b78-4c71-a9fd-a5be80b04336
     xudp: true
     servername: www.python.org
-  - name: "\U0001F1F8\U0001F1ECSG_20|1.0MB/s"
+  - name: "\U0001F1F8\U0001F1ECSG_10|1.3MB/s"
     network: ws
     port: 80
-    server: 45.85.119.255
+    server: 31.185.108.255
     type: vless
     udp: true
-    uuid: da8aa1d1-5fd7-4085-85c1-3d5cbfdbfc5c
+    uuid: 7baac04e-a297-48a0-99e9-2deba9ae64fb
     ws-opts:
       headers:
         Host: myvps.nilphreakz.me
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/56.0.2924.87 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
       path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_21|705KB/s"
+  - name: "\U0001F1F8\U0001F1ECSG_11|1.2MB/s"
     network: ws
     port: 80
-    server: 45.128.76.255
+    server: 45.8.211.255
     type: vless
     udp: true
-    uuid: 781c352c-5b01-4920-9a0e-2a25732f694c
+    uuid: 89b2eb61-c9c8-4990-9205-7f5eec0501fc
+    ws-opts:
+      headers:
+        Host: myvps.nilphreakz.me
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
+          Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+  - name: "\U0001F1F8\U0001F1ECSG_12|1.2MB/s"
+    network: ws
+    port: 80
+    server: 31.43.179.255
+    type: vless
+    udp: true
+    uuid: f1062c0c-7a36-4250-af5b-b8b47c8a40ca
     ws-opts:
       headers:
         Host: myvps.nilphreakz.me
         User-Agent: >-
           Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/56.0.2924.87 Safari/537.36
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
       path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_22|771KB/s"
-    network: ws
-    port: 80
-    server: 45.130.125.255
-    type: vless
-    udp: true
-    uuid: 4657a214-f331-4b98-bbe1-e813ab777a58
-    ws-opts:
-      headers:
-        Host: myvps.nilphreakz.me
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv)
-          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
-          Chrome/60.0.3112.116 Mobile Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1F9\U0001F1FCTW_1|3.4MB/s"
-    network: tcp
-    port: 40762
-    server: 103.115.109.250
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 35ce6e3a-4ddc-472c-9e9f-a34362c194e7
-    xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_23|938KB/s"
-    network: ws
-    port: 80
-    server: 45.131.4.255
-    type: vless
-    udp: true
-    uuid: 1b604b11-1dd2-45e1-9805-dc802ecd8abb
-    ws-opts:
-      headers:
-        Host: myvps.nilphreakz.me
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/48.0.2564.109 Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_24|937KB/s"
-    network: ws
-    port: 80
-    server: 45.146.201.255
-    type: vless
-    udp: true
-    uuid: d5436600-7461-43ed-b7fa-4eeb00f7d8d4
-    ws-opts:
-      headers:
-        Host: myvps.nilphreakz.me
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.76 Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_25|1.1MB/s"
-    network: ws
-    port: 80
-    server: 45.159.218.255
-    type: vless
-    udp: true
-    uuid: 0772da20-ea49-446d-816d-e42237c54848
-    ws-opts:
-      headers:
-        Host: myvps.nilphreakz.me
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
-          Mobile Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_26|841KB/s"
+  - name: "\U0001F1F8\U0001F1ECSG_13|1.3MB/s"
     network: ws
     port: 80
     server: 45.196.29.255
@@ -2803,13 +1876,14 @@ proxies:
       headers:
         Host: myvps.nilphreakz.me
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/67.0.3396.99 Safari/537.36
+          Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
       path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_27|1.3MB/s"
+  - name: "\U0001F1F8\U0001F1ECSG_14|1.3MB/s"
     network: ws
     port: 80
     server: 45.131.208.255
@@ -2820,11 +1894,40 @@ proxies:
       headers:
         Host: myvps.nilphreakz.me
         User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
-          (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.87 Safari/537.36
       path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
+    xudp: true
+  - name: "\U0001F1F8\U0001F1ECSG_15|700KB/s"
+    network: ws
+    port: 80
+    server: 45.128.76.255
+    type: vless
+    udp: true
+    uuid: 781c352c-5b01-4920-9a0e-2a25732f694c
+    ws-opts:
+      headers:
+        Host: myvps.nilphreakz.me
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
+          (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1F9\U0001F1FCTW_2|2.8MB/s"
+    network: tcp
+    port: 40762
+    server: 103.115.109.250
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 35ce6e3a-4ddc-472c-9e9f-a34362c194e7
     xudp: true
   - client-fingerprint: ios
     flow: xtls-rprx-vision
@@ -2832,7 +1935,7 @@ proxies:
       headers: {}
       path:
         - /
-    name: "\U0001F1FA\U0001F1F8US_103|39.4MB/s"
+    name: "\U0001F1FA\U0001F1F8US_81|13.3MB/s"
     network: tcp
     port: 10001
     reality-opts:
@@ -2846,99 +1949,109 @@ proxies:
     xudp: true
     servername: www.python.org
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_2|1.4MB/s"
+    name: "\U0001F1F9\U0001F1FCTW_3|2.4MB/s"
     password: a01f89af-3379-4a7f-9dc9-e3da49dacb49
     port: 10128
     server: 36.232.108.251
     type: ss
     udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_3|2.0MB/s"
-    password: 4fd57160-1025-46ed-a95d-ee0cbc971d80
-    port: 10091
-    server: 36.232.87.246
-    type: ss
+  - name: "\U0001F1F8\U0001F1ECSG_16|1.4MB/s"
+    network: ws
+    port: 80
+    server: 45.146.201.255
+    type: vless
     udp: true
+    uuid: d5436600-7461-43ed-b7fa-4eeb00f7d8d4
+    ws-opts:
+      headers:
+        Host: myvps.nilphreakz.me
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/45.0.2454.101 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_4|2.7MB/s"
-    password: 41f5ed85-d13d-4a99-aa3c-2edc185ba8b6
-    port: 10093
-    server: 36.235.1.184
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_5|899KB/s"
-    password: 9f62aed1-7c9c-4df8-bccb-6203f6e39c27
-    port: 10091
-    server: 36.232.87.246
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_6|1.4MB/s"
-    password: 4b2d1752-7c1b-47da-976a-8e7634bd665a
-    port: 10035
-    server: 125.230.22.83
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_7|2.0MB/s"
+    name: "\U0001F1F9\U0001F1FCTW_4|2.9MB/s"
     password: a01f89af-3379-4a7f-9dc9-e3da49dacb49
     port: 10004
     server: 118.170.235.179
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_8|1.3MB/s"
-    password: b87913fa-1b07-4ddf-af89-ae4a0ff5a7fe
-    port: 10121
-    server: 125.229.88.58
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_9|1.3MB/s"
-    password: 4b2d1752-7c1b-47da-976a-8e7634bd665a
-    port: 10064
-    server: 114.46.73.210
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_10|1.8MB/s"
+    name: "\U0001F1F9\U0001F1FCTW_5|2.7MB/s"
     password: 9f62aed1-7c9c-4df8-bccb-6203f6e39c27
     port: 10050
     server: 114.46.98.235
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_11|1.1MB/s"
-    password: 8c544ca4-1c04-43a8-bfae-76fc09706760
-    port: 10012
-    server: 36.234.111.160
+    name: "\U0001F1F9\U0001F1FCTW_6|1.6MB/s"
+    password: 9f62aed1-7c9c-4df8-bccb-6203f6e39c27
+    port: 10091
+    server: 36.232.87.246
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_12|4.1MB/s"
-    password: 981d4035-5e92-4123-832b-280c48647de3
-    port: 10005
-    server: 118.170.200.164
+    name: "\U0001F1F9\U0001F1FCTW_7|1.5MB/s"
+    password: 4fd57160-1025-46ed-a95d-ee0cbc971d80
+    port: 10091
+    server: 36.232.87.246
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_13|1.3MB/s"
+    name: "\U0001F1F9\U0001F1FCTW_8|1.4MB/s"
+    password: 4b2d1752-7c1b-47da-976a-8e7634bd665a
+    port: 10035
+    server: 125.230.22.83
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F9\U0001F1FCTW_9|2.8MB/s"
+    password: 41f5ed85-d13d-4a99-aa3c-2edc185ba8b6
+    port: 10093
+    server: 36.235.1.184
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F9\U0001F1FCTW_10|2.8MB/s"
+    password: 0543b5c3-b84e-4ee4-b037-c692829eb2ed
+    port: 10071
+    server: 36.234.65.75
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F9\U0001F1FCTW_11|2.0MB/s"
     password: 4fd57160-1025-46ed-a95d-ee0cbc971d80
     port: 10127
     server: 111.253.194.5
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_14|2.1MB/s"
-    password: 0543b5c3-b84e-4ee4-b037-c692829eb2ed
-    port: 10071
-    server: 36.234.65.75
+    name: "\U0001F1F9\U0001F1FCTW_12|3.3MB/s"
+    password: 981d4035-5e92-4123-832b-280c48647de3
+    port: 10005
+    server: 118.170.200.164
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F9\U0001F1FCTW_13|811KB/s"
+    password: b87913fa-1b07-4ddf-af89-ae4a0ff5a7fe
+    port: 10121
+    server: 125.229.88.58
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F9\U0001F1FCTW_14|1.8MB/s"
+    password: 4b2d1752-7c1b-47da-976a-8e7634bd665a
+    port: 10064
+    server: 114.46.73.210
     type: ss
     udp: true
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EC\U0001F1E7GB_6|1.2MB/s"
+    name: "\U0001F1FA\U0001F1F8US_82|1.2MB/s"
     obfs: ''
     obfs-password: ''
     password: 199cd6fd-3012-4d9b-b28d-8aa86fffa039
@@ -2948,9 +2061,49 @@ proxies:
     sni: dg1.xiaohuolongjc.top
     type: hysteria2
     up: ''
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F9\U0001F1FCTW_15|1.7MB/s"
+    password: 8c544ca4-1c04-43a8-bfae-76fc09706760
+    port: 10012
+    server: 36.234.111.160
+    type: ss
+    udp: true
+  - client-fingerprint: safari
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1FA\U0001F1F8US_83|18.0MB/s"
+    network: tcp
+    port: 10001
+    reality-opts:
+      public-key: T-5Ud3XMnRKHZ_iDiDh1DA-LcsMd_3j-fmD4OjUVgC4
+      short-id: ''
+    server: 1002.952326.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: e79910ef-316f-4412-b39f-5de4d007c27a
+    xudp: true
+    servername: www.python.org
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F9\U0001F1FCTW_16|2.3MB/s"
+    password: 41f5ed85-d13d-4a99-aa3c-2edc185ba8b6
+    port: 10129
+    server: 114.35.114.182
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F9\U0001F1FCTW_17|3.8MB/s"
+    password: 67de493e-422d-4528-b337-2963d597f7cd
+    port: 10056
+    server: 125.231.93.197
+    type: ss
+    udp: true
   - alterId: '0'
     cipher: auto
-    name: "\U0001F1EF\U0001F1F5JP_3|5.0MB/s"
+    name: "\U0001F1EF\U0001F1F5JP_1|4.4MB/s"
     network: ws
     port: 16617
     server: planb.mojcn.com
@@ -2965,15 +2118,37 @@ proxies:
       path: /
     xudp: true
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_15|3.3MB/s"
-    password: 67de493e-422d-4528-b337-2963d597f7cd
-    port: 10056
-    server: 125.231.93.197
+    name: "\U0001F1F9\U0001F1FCTW_18|1.9MB/s"
+    password: 41f5ed85-d13d-4a99-aa3c-2edc185ba8b6
+    port: 10121
+    server: 125.229.88.58
     type: ss
     udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F9\U0001F1FCTW_19|3.3MB/s"
+    password: 9f62aed1-7c9c-4df8-bccb-6203f6e39c27
+    port: 10075
+    server: 114.46.114.70
+    type: ss
+    udp: true
+  - name: "\U0001F1EB\U0001F1F7FR_1|612KB/s"
+    network: ws
+    port: 80
+    server: sweet-combination.seotoolsforyou.co.uk
+    type: vless
+    udp: true
+    uuid: 05020a61-3c0c-4ead-b256-7851ff905a75
+    ws-opts:
+      headers:
+        Host: sweet-combination.seotoolsforyou.co.uk
+        User-Agent: >-
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /
+    xudp: true
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_104|5.0MB/s"
+    name: "\U0001F1FA\U0001F1F8US_84|2.9MB/s"
     obfs: ''
     obfs-password: ''
     password: d14a338a-90bc-4d61-8a9f-03207dc62551
@@ -2983,82 +2158,30 @@ proxies:
     sni: mg2.jjzcloud.top
     type: hysteria2
     up: ''
-  - client-fingerprint: safari
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1FA\U0001F1F8US_105|12.3MB/s"
-    network: tcp
-    port: 10001
-    reality-opts:
-      public-key: T-5Ud3XMnRKHZ_iDiDh1DA-LcsMd_3j-fmD4OjUVgC4
-      short-id: ''
-    server: 1002.952326.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: e79910ef-316f-4412-b39f-5de4d007c27a
-    xudp: true
-    servername: www.python.org
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_16|1.2MB/s"
-    password: 41f5ed85-d13d-4a99-aa3c-2edc185ba8b6
-    port: 10129
-    server: 114.35.114.182
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_17|2.0MB/s"
-    password: e891bf3f-f4fd-44e5-8530-4b3bacc5b8aa
-    port: 10038
-    server: 125.231.65.164
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_18|1.7MB/s"
-    password: 41f5ed85-d13d-4a99-aa3c-2edc185ba8b6
-    port: 10121
-    server: 125.229.88.58
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_19|1.4MB/s"
+    name: "\U0001F1F9\U0001F1FCTW_20|1.5MB/s"
     password: 4ff42b45-6ab8-44f7-9f44-e09571a150bb
     port: 10038
     server: 125.231.65.164
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_20|3.0MB/s"
-    password: 9f62aed1-7c9c-4df8-bccb-6203f6e39c27
-    port: 10075
-    server: 114.46.114.70
+    name: "\U0001F1F9\U0001F1FCTW_21|2.8MB/s"
+    password: 9147add3-109d-4eba-9b2b-aecd24b847e0
+    port: 10009
+    server: 118.170.195.179
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_21|3.9MB/s"
-    password: 7baac8d2-57b4-42bc-97a4-9b6a0471bc53
-    port: 10043
-    server: 36.234.112.65
+    name: "\U0001F1F9\U0001F1FCTW_22|1.4MB/s"
+    password: e891bf3f-f4fd-44e5-8530-4b3bacc5b8aa
+    port: 10038
+    server: 125.231.65.164
     type: ss
     udp: true
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_106|1.2MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 1fd00115-b36f-4dbf-8f7b-9c9c50aaae4f
-    port: 37771
-    server: dg1.xiaohuolongjc.top
-    skip-cert-verify: true
-    sni: dg1.xiaohuolongjc.top
-    type: hysteria2
-    up: ''
   - alterId: '0'
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_107|7.4MB/s"
+    name: "\U0001F1FA\U0001F1F8US_85|8.4MB/s"
     network: ws
     port: 2052
     server: s1.houge.ggff.net
@@ -3072,39 +2195,25 @@ proxies:
         Host: c3b1c45f28992e46e7b0902959179dc5.s1.houge.ggff.net
       path: /dabai.in?=c3b1c45f28992e46e7b0902959179dc5
     xudp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_22|2.4MB/s"
-    password: 9147add3-109d-4eba-9b2b-aecd24b847e0
-    port: 10009
-    server: 118.170.195.179
-    type: ss
-    udp: true
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_108|5.3MB/s"
+    name: "\U0001F1FA\U0001F1F8US_86|1.2MB/s"
     obfs: ''
     obfs-password: ''
-    password: b671e3e8-a271-4a36-b746-573d7c00e72c
-    port: 57338
-    server: mg2.jjzcloud.top
+    password: 1fd00115-b36f-4dbf-8f7b-9c9c50aaae4f
+    port: 37771
+    server: dg1.xiaohuolongjc.top
     skip-cert-verify: true
-    sni: mg2.jjzcloud.top
+    sni: dg1.xiaohuolongjc.top
     type: hysteria2
     up: ''
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_23|1.9MB/s"
-    password: 0543b5c3-b84e-4ee4-b037-c692829eb2ed
-    port: 10088
-    server: 1.170.40.154
-    type: ss
-    udp: true
   - client-fingerprint: edge
     flow: xtls-rprx-vision
     http-opts:
       headers: {}
       path:
         - /
-    name: "\U0001F1F3\U0001F1F1NL_4|2.6MB/s"
+    name: "\U0001F1F3\U0001F1F1NL_3|5.6MB/s"
     network: tcp
     port: 10012
     reality-opts:
@@ -3118,41 +2227,22 @@ proxies:
     xudp: true
     servername: www.douyin.com
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_24|1.7MB/s"
+    name: ❓Other_2|2.4MB/s
     password: e4d952a0-d0e9-48b0-a488-26019624eca8
     port: 10081
     server: 125.228.180.250
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_25|2.4MB/s"
-    password: a01f89af-3379-4a7f-9dc9-e3da49dacb49
-    port: 10117
-    server: 1.170.10.19
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_26|3.4MB/s"
-    password: e4d952a0-d0e9-48b0-a488-26019624eca8
-    port: 10076
-    server: 114.46.94.126
+    name: "\U0001F1F9\U0001F1FCTW_23|2.9MB/s"
+    password: 7baac8d2-57b4-42bc-97a4-9b6a0471bc53
+    port: 10043
+    server: 36.234.112.65
     type: ss
     udp: true
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_109|1.1MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 60b66af6-a235-4ca9-82cb-b2d331506beb
-    port: 37771
-    server: dg1.xiaohuolongjc.top
-    skip-cert-verify: true
-    sni: dg1.xiaohuolongjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_110|33.1MB/s"
+    name: "\U0001F1FA\U0001F1F8US_87|108.7MB/s"
     obfs: ''
     obfs-password: ''
     password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
@@ -3162,48 +2252,80 @@ proxies:
     sni: 7f0b13ae-t2n0g0-t9lb2a-1glq.la.shifen.uk
     type: hysteria2
     up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_88|1.1MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 60b66af6-a235-4ca9-82cb-b2d331506beb
+    port: 37771
+    server: dg1.xiaohuolongjc.top
+    skip-cert-verify: true
+    sni: dg1.xiaohuolongjc.top
+    type: hysteria2
+    up: ''
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_27|1.9MB/s"
+    name: "\U0001F1F9\U0001F1FCTW_24|2.5MB/s"
+    password: a01f89af-3379-4a7f-9dc9-e3da49dacb49
+    port: 10117
+    server: 1.170.10.19
+    type: ss
+    udp: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_89|3.7MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: b671e3e8-a271-4a36-b746-573d7c00e72c
+    port: 57338
+    server: mg2.jjzcloud.top
+    skip-cert-verify: true
+    sni: mg2.jjzcloud.top
+    type: hysteria2
+    up: ''
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F9\U0001F1FCTW_25|1.5MB/s"
     password: 0e6124d0-c67d-4566-a8c3-75f326359ae7
     port: 10038
     server: 125.231.65.164
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_28|1.3MB/s"
-    password: accc8529-c946-466c-ba38-1cf76360dfaf
-    port: 10012
-    server: 36.234.111.160
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_29|3.5MB/s"
+    name: "\U0001F1F9\U0001F1FCTW_26|3.0MB/s"
     password: 67de493e-422d-4528-b337-2963d597f7cd
     port: 10021
     server: 1.165.82.194
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_30|3.0MB/s"
-    password: accc8529-c946-466c-ba38-1cf76360dfaf
-    port: 10035
-    server: 125.230.22.83
+    name: "\U0001F1F9\U0001F1FCTW_27|2.8MB/s"
+    password: e4d952a0-d0e9-48b0-a488-26019624eca8
+    port: 10076
+    server: 114.46.94.126
     type: ss
     udp: true
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_111|4.8MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 2fba8576-0b2a-4018-a2df-dc6515e64b01
-    port: 14558
-    server: tw.xilucloud.top
-    skip-cert-verify: true
-    sni: tw.xilucloud.top
-    type: hysteria2
-    up: ''
+  - alterId: '1'
+    cipher: auto
+    name: "\U0001F1EF\U0001F1F5JP_2|8.1MB/s"
+    network: tcp
+    port: 28783
+    server: ufpcy-g01.jp06-jz-vm0.entry.fr0528.art
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: 9e22dd9a-98e8-39d9-ab8b-2cee7e8ca678
+    xudp: true
+    servername: ufpcy-g01.jp06-jz-vm0.entry.fr0528.art
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_31|812KB/s"
+    name: "\U0001F1F9\U0001F1FCTW_28|1.2MB/s"
+    password: accc8529-c946-466c-ba38-1cf76360dfaf
+    port: 10012
+    server: 36.234.111.160
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F9\U0001F1FCTW_29|1.1MB/s"
     password: 8c544ca4-1c04-43a8-bfae-76fc09706760
     port: 10080
     server: 36.234.117.52
@@ -3211,19 +2333,7 @@ proxies:
     udp: true
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_112|1.3MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 9596fba6-7f65-49b5-a36e-38571a549389
-    port: 37771
-    server: rb1.xiaohuolongjc.top
-    skip-cert-verify: true
-    sni: rb1.xiaohuolongjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_113|9.0MB/s"
+    name: "\U0001F1FA\U0001F1F8US_90|3.0MB/s"
     obfs: ''
     obfs-password: ''
     password: 88ec8f5e-6bb8-48d1-ab08-f97d9fa41edc
@@ -3234,42 +2344,42 @@ proxies:
     type: hysteria2
     up: ''
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_32|2.7MB/s"
-    password: 76310470-c9a7-4160-842f-6b681ec9a282
-    port: 10143
-    server: 36.232.80.100
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_33|3.1MB/s"
-    password: bd92be3c-0739-4e7b-a8cf-41fe9a72fa2c
-    port: 10063
-    server: 114.46.87.120
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_34|1.1MB/s"
-    password: a01f89af-3379-4a7f-9dc9-e3da49dacb49
-    port: 10029
-    server: 125.230.12.143
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_35|1.5MB/s"
+    name: "\U0001F1F9\U0001F1FCTW_30|2.8MB/s"
     password: b5c75498-fc07-419f-83c5-8343f26165d1
     port: 10091
     server: 36.232.87.246
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_36|1.3MB/s"
+    name: "\U0001F1F9\U0001F1FCTW_31|1.4MB/s"
+    password: accc8529-c946-466c-ba38-1cf76360dfaf
+    port: 10035
+    server: 125.230.22.83
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F9\U0001F1FCTW_32|2.8MB/s"
+    password: a01f89af-3379-4a7f-9dc9-e3da49dacb49
+    port: 10029
+    server: 125.230.12.143
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F9\U0001F1FCTW_33|2.8MB/s"
+    password: bd92be3c-0739-4e7b-a8cf-41fe9a72fa2c
+    port: 10063
+    server: 114.46.87.120
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F9\U0001F1FCTW_34|2.3MB/s"
     password: b87913fa-1b07-4ddf-af89-ae4a0ff5a7fe
     port: 10051
     server: 36.234.118.136
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_37|2.9MB/s"
+    name: "\U0001F1F9\U0001F1FCTW_35|3.3MB/s"
     password: 4b2d1752-7c1b-47da-976a-8e7634bd665a
     port: 10096
     server: 1.170.29.78
@@ -3281,7 +2391,7 @@ proxies:
       headers: {}
       path:
         - /
-    name: "\U0001F1F8\U0001F1ECSG_28|4.4MB/s"
+    name: "\U0001F1F8\U0001F1ECSG_17|4.9MB/s"
     network: tcp
     port: 19191
     reality-opts:
@@ -3294,21 +2404,9 @@ proxies:
     uuid: 0024ddfe-4005-43f0-b961-4273df33def8
     xudp: true
     servername: www.douyin.com
-  - alterId: '1'
-    cipher: auto
-    name: "\U0001F1EF\U0001F1F5JP_4|7.4MB/s"
-    network: tcp
-    port: 28783
-    server: 0sckp-g01.jp07-sh-vm0.entry.fr0528.art
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 1a9f857f-9a07-3a8c-a155-f9ab3c457343
-    xudp: true
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_114|2.3MB/s"
+    name: "\U0001F1FA\U0001F1F8US_91|616KB/s"
     obfs: ''
     obfs-password: ''
     password: 72153d32-1382-4ec1-a349-ec3f24f1b803
@@ -3318,138 +2416,124 @@ proxies:
     sni: us3.xilucloud.top
     type: hysteria2
     up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_115|1.3MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 15a0d2e5-3cb8-40e2-b746-bda2dcd9cbf8
-    port: 37771
-    server: rb1.xiaohuolongjc.top
-    skip-cert-verify: true
-    sni: rb1.xiaohuolongjc.top
-    type: hysteria2
-    up: ''
+  - alterId: '1'
+    cipher: auto
+    name: "\U0001F1EF\U0001F1F5JP_3|8.0MB/s"
+    network: tcp
+    port: 28783
+    server: 0sckp-g01.jp07-sh-vm0.entry.fr0528.art
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 1a9f857f-9a07-3a8c-a155-f9ab3c457343
+    xudp: true
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_38|611KB/s"
+    name: "\U0001F1F9\U0001F1FCTW_36|2.3MB/s"
     password: bd92be3c-0739-4e7b-a8cf-41fe9a72fa2c
     port: 10106
     server: 1.170.35.39
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_39|2.0MB/s"
+    name: "\U0001F1F9\U0001F1FCTW_37|1.7MB/s"
     password: 4ff42b45-6ab8-44f7-9f44-e09571a150bb
     port: 10004
     server: 118.170.235.179
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_40|614KB/s"
-    password: ea02542b-b21e-451a-bb8d-9666a22afd98
-    port: 10096
-    server: 1.170.29.78
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_41|3.8MB/s"
-    password: d2fef28d-969a-462e-ad5e-f3a886c82301
-    port: 10050
-    server: 114.46.98.235
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_42|2.1MB/s"
-    password: 41f5ed85-d13d-4a99-aa3c-2edc185ba8b6
-    port: 10124
-    server: 36.232.90.131
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_43|1.9MB/s"
-    password: d2fef28d-969a-462e-ad5e-f3a886c82301
-    port: 10089
-    server: 125.228.180.215
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_44|2.8MB/s"
-    password: e4d952a0-d0e9-48b0-a488-26019624eca8
-    port: 10021
-    server: 1.165.82.194
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_45|1.5MB/s"
+    name: "\U0001F1F9\U0001F1FCTW_38|2.8MB/s"
     password: a2a5d2bb-6a7b-4d1a-9f84-17ada74db8aa
     port: 10127
     server: 111.253.194.5
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_46|2.4MB/s"
-    password: 0952b216-9969-4e69-8584-58df48bc719a
-    port: 10079
-    server: 36.234.68.202
+    name: "\U0001F1F9\U0001F1FCTW_39|3.5MB/s"
+    password: e4d952a0-d0e9-48b0-a488-26019624eca8
+    port: 10021
+    server: 1.165.82.194
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_47|3.5MB/s"
-    password: accc8529-c946-466c-ba38-1cf76360dfaf
-    port: 10008
-    server: 114.46.89.68
+    name: "\U0001F1F9\U0001F1FCTW_40|2.4MB/s"
+    password: d2fef28d-969a-462e-ad5e-f3a886c82301
+    port: 10089
+    server: 125.228.180.215
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_48|2.4MB/s"
+    name: "\U0001F1F9\U0001F1FCTW_41|2.9MB/s"
     password: 41f5ed85-d13d-4a99-aa3c-2edc185ba8b6
     port: 10052
     server: 36.234.119.96
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_49|1.8MB/s"
+    name: "\U0001F1F9\U0001F1FCTW_42|1.8MB/s"
+    password: 41f5ed85-d13d-4a99-aa3c-2edc185ba8b6
+    port: 10124
+    server: 36.232.90.131
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F9\U0001F1FCTW_43|3.9MB/s"
+    password: accc8529-c946-466c-ba38-1cf76360dfaf
+    port: 10008
+    server: 114.46.89.68
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F9\U0001F1FCTW_44|2.9MB/s"
+    password: d2fef28d-969a-462e-ad5e-f3a886c82301
+    port: 10050
+    server: 114.46.98.235
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F9\U0001F1FCTW_45|2.3MB/s"
+    password: 0952b216-9969-4e69-8584-58df48bc719a
+    port: 10079
+    server: 36.234.68.202
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F9\U0001F1FCTW_46|1.9MB/s"
     password: 999a8d3c-5b27-4e7f-9a24-dc2e5526b4e8
     port: 10093
     server: 36.235.1.184
     type: ss
     udp: true
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_50|2.7MB/s"
-    password: b87913fa-1b07-4ddf-af89-ae4a0ff5a7fe
-    port: 10076
-    server: 114.46.94.126
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_51|1.0MB/s"
+    name: "\U0001F1F9\U0001F1FCTW_47|934KB/s"
     password: 0952b216-9969-4e69-8584-58df48bc719a
     port: 10056
     server: 125.231.93.197
     type: ss
     udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_116|12.7MB/s"
-    network: ws
-    port: 443
-    server: backus1.dh03.shop
-    tls: true
-    type: vless
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F9\U0001F1FCTW_48|1.3MB/s"
+    password: b87913fa-1b07-4ddf-af89-ae4a0ff5a7fe
+    port: 10076
+    server: 114.46.94.126
+    type: ss
     udp: true
-    uuid: 71504eaf-29ac-4190-89d1-dd9ce2c9ee14
-    ws-opts:
-      headers:
-        Host: backus1.dh03.shop
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: /higate
-    xudp: true
-    servername: backus1.dh03.shop
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_92|3.7MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 2fba8576-0b2a-4018-a2df-dc6515e64b01
+    port: 14558
+    server: tw.xilucloud.top
+    skip-cert-verify: true
+    sni: tw.xilucloud.top
+    type: hysteria2
+    up: ''
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1EB\U0001F1F7FR_2|6.7MB/s"
+    name: "\U0001F1EB\U0001F1F7FR_2|8.7MB/s"
     network: ws
     port: 443
     server: backhaxus.dh04.shop
@@ -3461,50 +2545,45 @@ proxies:
       headers:
         Host: backhaxus.dh04.shop
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/67.0.3396.99 Safari/537.36
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/53.0.2785.143 Safari/537.36
       path: /
     xudp: true
     servername: backhaxus.dh04.shop
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_93|7.5MB/s"
+    network: ws
+    port: 443
+    server: backus1.dh03.shop
+    tls: true
+    type: vless
+    udp: true
+    uuid: 71504eaf-29ac-4190-89d1-dd9ce2c9ee14
+    ws-opts:
+      headers:
+        Host: backus1.dh03.shop
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/65.0.3325.162 Safari/537.36
+      path: /higate
+    xudp: true
+    servername: backus1.dh03.shop
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_117|1.3MB/s"
-    obfs: salamander
-    obfs-password: 484V0vNCtIBZGmVw
-    password: 71504eaf-29ac-4190-89d1-dd9ce2c9ee14
-    port: 58264
-    server: 151.243.168.31
-    skip-cert-verify: true
-    sni: Ab.ac
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F2\U0001F1F4MO_1|1.5MB/s"
-    obfs: salamander
-    obfs-password: TGFWe7Bd7LrJTVQr
-    password: 71504eaf-29ac-4190-89d1-dd9ce2c9ee14
-    port: 50573
-    server: 154.83.89.69
-    skip-cert-verify: true
-    sni: Ab.ac
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EC\U0001F1E7GB_7|8.0MB/s"
+    name: "\U0001F1FA\U0001F1F8US_94|11.1MB/s"
     obfs: salamander
     obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-    password: 74f135a0-6ff1-4024-90e7-a6e3f542525a
-    port: 25785
-    server: ukhub.xg-hub.icu
+    password: 9f4fe8bc-5bcf-4182-b885-32aca3cc833f
+    port: 25780
+    server: ushub.xg-hub.icu
     skip-cert-verify: true
-    sni: ukhub.xg-hub.icu
+    sni: ushub.xg-hub.icu
     type: hysteria2
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EF\U0001F1F5JP_5|2.3MB/s"
+    name: "\U0001F1EF\U0001F1F5JP_4|2.6MB/s"
     obfs: salamander
     obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
     password: 74f135a0-6ff1-4024-90e7-a6e3f542525a
@@ -3514,6 +2593,30 @@ proxies:
     sni: jphub.xg-hub.icu
     type: hysteria2
     up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E9\U0001F1EADE_6|1.2MB/s"
+    obfs: salamander
+    obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+    password: 9f4fe8bc-5bcf-4182-b885-32aca3cc833f
+    port: 25784
+    server: dehub.xg-hub.icu
+    skip-cert-verify: true
+    sni: dehub.xg-hub.icu
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E9\U0001F1EADE_7|1.3MB/s"
+    obfs: salamander
+    obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+    password: 74f135a0-6ff1-4024-90e7-a6e3f542525a
+    port: 25784
+    server: dehub.xg-hub.icu
+    skip-cert-verify: true
+    sni: dehub.xg-hub.icu
+    type: hysteria2
+    up: ''
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
@@ -3521,7 +2624,7 @@ proxies:
       headers: {}
       path:
         - /
-    name: "\U0001F1FA\U0001F1F8US_118|5.5MB/s"
+    name: "\U0001F1FA\U0001F1F8US_95|56.8MB/s"
     network: tcp
     port: 34074
     reality-opts:
@@ -3536,187 +2639,7 @@ proxies:
     servername: www.ucla.edu
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_119|649KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 77d9377f-c528-4d0c-94c2-11af286ebaab
-    port: 37771
-    server: mg1.xiaohuolongjc.top
-    skip-cert-verify: true
-    sni: mg1.xiaohuolongjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_120|529KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 9e507422-de8c-4aeb-b856-fd013b7ae6be
-    port: 37771
-    server: mg1.xiaohuolongjc.top
-    skip-cert-verify: true
-    sni: mg1.xiaohuolongjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_121|720KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: e0fbba03-454c-43d3-9946-24eaa599ec96
-    port: 37771
-    server: mg1.xiaohuolongjc.top
-    skip-cert-verify: true
-    sni: mg1.xiaohuolongjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_122|650KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 6154dab6-3b26-454f-9bb4-276ff56738ed
-    port: 37771
-    server: mg1.xiaohuolongjc.top
-    skip-cert-verify: true
-    sni: mg1.xiaohuolongjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_123|712KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 71a1a8ab-8898-4427-a7d7-9d9b56a0467f
-    port: 37771
-    server: mg1.xiaohuolongjc.top
-    skip-cert-verify: true
-    sni: mg1.xiaohuolongjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_124|681KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 1792a5a9-0845-44a9-a0e2-8cf3e2d33a94
-    port: 37771
-    server: mg1.xiaohuolongjc.top
-    skip-cert-verify: true
-    sni: mg1.xiaohuolongjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_125|550KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 4b5daa7f-bfe4-4f8d-9c17-4ccc6419aea1
-    port: 37771
-    server: mg1.xiaohuolongjc.top
-    skip-cert-verify: true
-    sni: mg1.xiaohuolongjc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_126|702KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 6a7c72d0-a595-4e8a-ad39-4d05e4b8a45b
-    port: 14558
-    server: us.xilucloud.top
-    skip-cert-verify: true
-    sni: us.xilucloud.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_127|702KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: b0cb96e1-8022-405a-8203-fc0a0aaa2691
-    port: 14558
-    server: us.xilucloud.top
-    skip-cert-verify: true
-    sni: us.xilucloud.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_128|555KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 33497ba6-0f6e-46ab-9ec8-7f504b2a7d48
-    port: 14558
-    server: us.xilucloud.top
-    skip-cert-verify: true
-    sni: us.xilucloud.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_129|529KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: f6209e12-88f4-4c9e-97cd-54f7c49bc5b3
-    port: 14558
-    server: us.xilucloud.top
-    skip-cert-verify: true
-    sni: us.xilucloud.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_130|642KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: dc528314-92a2-495b-baa9-b6e9deac485b
-    port: 14558
-    server: us.xilucloud.top
-    skip-cert-verify: true
-    sni: us.xilucloud.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_131|743KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: fd9e71b4-a485-48fc-ad0b-71794414aee3
-    port: 14558
-    server: us.xilucloud.top
-    skip-cert-verify: true
-    sni: us.xilucloud.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_132|628KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: a8ea2c18-cd65-42dc-8f25-cc23868a01f8
-    port: 14558
-    server: us.xilucloud.top
-    skip-cert-verify: true
-    sni: us.xilucloud.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_133|548KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 2a15dec6-fb46-440e-983b-4641d19ef915
-    port: 14558
-    server: us.xilucloud.top
-    skip-cert-verify: true
-    sni: us.xilucloud.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_134|851KB/s"
+    name: "\U0001F1FA\U0001F1F8US_96|539KB/s"
     obfs: ''
     obfs-password: ''
     password: a75f8820-c925-4c72-ab59-93016b6689de
@@ -3728,10 +2651,10 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_135|626KB/s"
+    name: "\U0001F1FA\U0001F1F8US_97|608KB/s"
     obfs: ''
     obfs-password: ''
-    password: 93480fcc-d6ff-4c14-9d31-b482166122b3
+    password: f6209e12-88f4-4c9e-97cd-54f7c49bc5b3
     port: 14558
     server: us.xilucloud.top
     skip-cert-verify: true
@@ -3740,10 +2663,10 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_136|703KB/s"
+    name: "\U0001F1FA\U0001F1F8US_98|520KB/s"
     obfs: ''
     obfs-password: ''
-    password: 1a8e730b-97b6-4465-9cdc-fa546397080d
+    password: 2a15dec6-fb46-440e-983b-4641d19ef915
     port: 14558
     server: us.xilucloud.top
     skip-cert-verify: true
@@ -3752,10 +2675,10 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_137|676KB/s"
+    name: "\U0001F1FA\U0001F1F8US_99|560KB/s"
     obfs: ''
     obfs-password: ''
-    password: 31763e6e-c8e5-4659-9e8b-51185314ea4a
+    password: 67ad1f50-6cdb-4ed5-b995-e0701fe179e3
     port: 14558
     server: us.xilucloud.top
     skip-cert-verify: true
@@ -3764,10 +2687,10 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_138|897KB/s"
+    name: "\U0001F1FA\U0001F1F8US_100|547KB/s"
     obfs: ''
     obfs-password: ''
-    password: 722bb127-df7c-4fa5-b94a-3ee6438dcb95
+    password: 6a7c72d0-a595-4e8a-ad39-4d05e4b8a45b
     port: 14558
     server: us.xilucloud.top
     skip-cert-verify: true
@@ -3776,7 +2699,31 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_139|643KB/s"
+    name: "\U0001F1FA\U0001F1F8US_101|512KB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 76e7bce0-6865-4b42-9ccb-422026a6c27e
+    port: 14558
+    server: us.xilucloud.top
+    skip-cert-verify: true
+    sni: us.xilucloud.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_102|803KB/s"
+    obfs: ''
+    obfs-password: ''
+    password: c0ce5ad6-e8eb-40ad-a51e-fba07ca8c2f0
+    port: 14558
+    server: us.xilucloud.top
+    skip-cert-verify: true
+    sni: us.xilucloud.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_103|856KB/s"
     obfs: ''
     obfs-password: ''
     password: dd2ddcca-c60e-42cd-ad6f-9b3307027e45
@@ -3788,7 +2735,31 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_140|796KB/s"
+    name: "\U0001F1FA\U0001F1F8US_104|957KB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 93480fcc-d6ff-4c14-9d31-b482166122b3
+    port: 14558
+    server: us.xilucloud.top
+    skip-cert-verify: true
+    sni: us.xilucloud.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_105|921KB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 31763e6e-c8e5-4659-9e8b-51185314ea4a
+    port: 14558
+    server: us.xilucloud.top
+    skip-cert-verify: true
+    sni: us.xilucloud.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_106|928KB/s"
     obfs: ''
     obfs-password: ''
     password: 2d926502-dd31-48d1-878f-5a0a1d916add
@@ -3800,10 +2771,10 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_141|954KB/s"
+    name: "\U0001F1FA\U0001F1F8US_107|827KB/s"
     obfs: ''
     obfs-password: ''
-    password: 1b0634e6-2a38-4fc2-b785-4e10f4e4ab5b
+    password: 722bb127-df7c-4fa5-b94a-3ee6438dcb95
     port: 14558
     server: us.xilucloud.top
     skip-cert-verify: true
@@ -3812,7 +2783,19 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_142|1.9MB/s"
+    name: "\U0001F1FA\U0001F1F8US_108|786KB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 1a8e730b-97b6-4465-9cdc-fa546397080d
+    port: 14558
+    server: us.xilucloud.top
+    skip-cert-verify: true
+    sni: us.xilucloud.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_109|756KB/s"
     obfs: ''
     obfs-password: ''
     password: 342ff650-901f-44f4-8138-5655e8339a6c
@@ -3824,10 +2807,10 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_143|1.4MB/s"
+    name: "\U0001F1FA\U0001F1F8US_110|768KB/s"
     obfs: ''
     obfs-password: ''
-    password: 8cec5bed-ccfc-4603-a1a4-dc8641f362a2
+    password: ca3f43d8-b00d-435e-94d4-5d081f6c880b
     port: 14558
     server: us.xilucloud.top
     skip-cert-verify: true
@@ -3836,10 +2819,22 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_144|1.4MB/s"
+    name: "\U0001F1FA\U0001F1F8US_111|820KB/s"
     obfs: ''
     obfs-password: ''
-    password: ca3f43d8-b00d-435e-94d4-5d081f6c880b
+    password: 1b0634e6-2a38-4fc2-b785-4e10f4e4ab5b
+    port: 14558
+    server: us.xilucloud.top
+    skip-cert-verify: true
+    sni: us.xilucloud.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_112|792KB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 8cec5bed-ccfc-4603-a1a4-dc8641f362a2
     port: 14558
     server: us.xilucloud.top
     skip-cert-verify: true
